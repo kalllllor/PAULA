@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import Footer from "../components/footer"
+import Footer from "../components/Footer"
 import Menu from "../components/menu"
 import Slider from "../components/slider"
 import "../styles/pages/mainPage.css"
