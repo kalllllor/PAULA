@@ -3,7 +3,6 @@
     width: 100%;
     height: 40vh;
     background-color: #FCC700;
-    bottom: calc(0-40vh);
     border-top: 3vh solid #000000
 }
 
