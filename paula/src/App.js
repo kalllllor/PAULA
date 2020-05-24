@@ -20,6 +20,7 @@ class App extends Component {
         return <Router>
             <Switch>
                 <Route exact path="/" component={MainPage} />
+                <Route exact path="/PAULA" component={MainPage} />
                 <Route exact path="/about" component={AboutPage} />
                 <Route exact path="/producers" component={ProducersPage} />
                 <Route exact path="/contact" component={ContactPage} />
