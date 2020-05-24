@@ -3,7 +3,9 @@ import Footer from "../components/Footer"
 import Menu from "../components/Menu"
 import Slider from "../components/Slider"
 import AboutColumn from "../components/AboutColumn"
+import ShopColumn from "../components/ShopColumn"
 import { aboutData } from "../data/aboutData"
+import { shopsData } from "../data/shopsData"
 import "../styles/pages/mainPage.css"
 
 class MainPage extends React.Component {
@@ -18,6 +20,7 @@ class MainPage extends React.Component {
             <div className="mainPage">
                 <Menu />
                 <Slider />
+                
                 <div className="mainPage__aboutTitle">
                     <h2>CO NAS CECHUJE</h2>
                 </div>
