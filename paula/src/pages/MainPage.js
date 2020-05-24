@@ -12,6 +12,7 @@ class MainPage extends React.Component {
     constructor() {
         super();
         this.state = {
+            XD: "XD"
         }
     }
     render() {
@@ -20,7 +21,7 @@ class MainPage extends React.Component {
             <div className="mainPage">
                 <Menu />
                 <Slider />
-                
+
                 <div className="mainPage__aboutTitle">
                     <h2>CO NAS CECHUJE</h2>
                 </div>
