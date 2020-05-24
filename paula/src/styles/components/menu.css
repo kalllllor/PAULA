@@ -36,8 +36,31 @@
     line-height: 10vh;
     width: 10vw;
     text-align: center;
-
 }
+
+/* unvisited link */
+.link:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* visited link */
+  .link:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* mouse over link */
+  .link:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* selected link */
+  .link:active {
+    text-decoration: none;
+    color: white;
+  }
 
 .link::before {
     content: "";
