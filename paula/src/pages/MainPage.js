@@ -1,17 +1,32 @@
 import React, { Component } from "react"
 import Footer from "../components/Footer"
-import Menu from "../components/menu"
-import Slider from "../components/slider"
+import Menu from "../components/Menu"
+import Slider from "../components/Slider"
+import AboutColumn from "../components/AboutColumn"
+import { aboutData } from "../data/aboutData"
 import "../styles/pages/mainPage.css"
 
 class MainPage extends React.Component {
-
+    constructor() {
+        super();
+        this.state = {
+        }
+    }
     render() {
+
         return (
-            <div>
+            <div className="mainPage">
                 <Menu />
                 <Slider />
-                <div className="temporaryClass" />
+                <div className="mainPage__aboutTitle">
+                    <h2>CO NAS CECHUJE</h2>
+                </div>
+                <div className="mainPage__About">
+
+                    {aboutData.map(item => {
+                        return (<AboutColumn data={item} />)
+                    })}
+                </div>
                 <Footer />
             </div>
         )
