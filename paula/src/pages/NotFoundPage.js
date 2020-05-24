@@ -1,9 +1,9 @@
 import React, { Component } from "react"
 import Footer from "../components/Footer"
 import Menu from "../components/Menu"
-import "../styles/pages/contactPage.css"
+import "../styles/pages/notFoundPage.css"
 
-class ContactPage extends React.Component {
+class NotFoundPage extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -12,12 +12,11 @@ class ContactPage extends React.Component {
     render() {
 
         return (
-            <div className="mainPage">
-                <Menu />
-                <Footer />
+            <div>
+                <h2>PAGE NOT FOUND </h2>
             </div>
         )
     }
 }
 
-export default ContactPage
+export default NotFoundPage

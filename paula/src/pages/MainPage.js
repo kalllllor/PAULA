@@ -12,7 +12,6 @@ class MainPage extends React.Component {
     constructor() {
         super();
         this.state = {
-            XD: "XD"
         }
     }
     render() {
