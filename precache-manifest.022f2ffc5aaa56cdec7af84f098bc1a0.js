@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "044e9baf7a1ee6b2da676eaad6bbfb4b",
+    "revision": "6fcb54bb05a402e312de05e30fb343cb",
     "url": "/PAULA/index.html"
   },
   {
-    "revision": "3f89ead69ae2a4a628d2",
-    "url": "/PAULA/static/css/main.a82a506b.chunk.css"
+    "revision": "2a22579b68e326f6099e",
+    "url": "/PAULA/static/css/main.74d36e45.chunk.css"
   },
   {
-    "revision": "15905f474109aa4a8d24",
-    "url": "/PAULA/static/js/2.af6f2c02.chunk.js"
+    "revision": "97cf84986986a90ae2c0",
+    "url": "/PAULA/static/js/2.eed55a44.chunk.js"
   },
   {
-    "revision": "2c598234c7a24970b5fdf032f602e7bc",
-    "url": "/PAULA/static/js/2.af6f2c02.chunk.js.LICENSE.txt"
+    "revision": "54fd6816419f7824e2804745930c9117",
+    "url": "/PAULA/static/js/2.eed55a44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f89ead69ae2a4a628d2",
-    "url": "/PAULA/static/js/main.08aedbcb.chunk.js"
+    "revision": "2a22579b68e326f6099e",
+    "url": "/PAULA/static/js/main.ffbb4627.chunk.js"
   },
   {
     "revision": "d0c64ca83f3bbf8ef9d4",
