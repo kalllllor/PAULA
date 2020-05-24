@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PAULA/static/css/main.121d3c5f.chunk.css",
+    "main.js": "/PAULA/static/js/main.d7ab6744.chunk.js",
+    "main.js.map": "/PAULA/static/js/main.d7ab6744.chunk.js.map",
+    "runtime-main.js": "/PAULA/static/js/runtime-main.371a8e45.js",
+    "runtime-main.js.map": "/PAULA/static/js/runtime-main.371a8e45.js.map",
+    "static/js/2.af6f2c02.chunk.js": "/PAULA/static/js/2.af6f2c02.chunk.js",
+    "static/js/2.af6f2c02.chunk.js.map": "/PAULA/static/js/2.af6f2c02.chunk.js.map",
+    "index.html": "/PAULA/index.html",
+    "precache-manifest.437317678dc308e1da97c6386572698a.js": "/PAULA/precache-manifest.437317678dc308e1da97c6386572698a.js",
+    "service-worker.js": "/PAULA/service-worker.js",
+    "static/css/main.121d3c5f.chunk.css.map": "/PAULA/static/css/main.121d3c5f.chunk.css.map",
+    "static/js/2.af6f2c02.chunk.js.LICENSE.txt": "/PAULA/static/js/2.af6f2c02.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/PAULA/static/media/logo.79653828.png",
+    "static/media/slider_example1.jpg": "/PAULA/static/media/slider_example1.35584cfa.jpg",
+    "static/media/slider_example2.png": "/PAULA/static/media/slider_example2.f046d97b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.371a8e45.js",
+    "static/js/2.af6f2c02.chunk.js",
+    "static/css/main.121d3c5f.chunk.css",
+    "static/js/main.d7ab6744.chunk.js"
+  ]
+}
