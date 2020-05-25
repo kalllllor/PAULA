@@ -42,6 +42,7 @@ class Slider extends React.Component {
         }
         this.nextSlide = this.nextSlide.bind(this);
         this.prevSlide = this.prevSlide.bind(this);
+        this.tick = this.tick.bind(this);
 
         this.state.timerID = setInterval(
             () => this.tick(),
@@ -59,15 +60,10 @@ class Slider extends React.Component {
         const resetIndex = this.state.currentImageIndex === 0;
         const index = resetIndex ? lastIndex : this.state.currentImageIndex - 1;
         this.setState({
-            timerID : 0,
             isDisabled : true,
             className : "Slider__elements Slider__go__left"
         })
         clearInterval(this.state.timerID);
-        this.state.timerID = setInterval(
-            () => this.tick(),
-            4000
-          );
         setTimeout(() => {
             this.setState({
                 currentImageIndex: index,
@@ -75,6 +71,10 @@ class Slider extends React.Component {
                 isDisabled : false
             })
           }, 1000);
+          this.state.timerID = setInterval(
+            () => this.tick(),
+            4000
+          );
     }
 
     nextSlide() {
@@ -82,10 +82,6 @@ class Slider extends React.Component {
         const resetIndex = this.state.currentImageIndex === lastIndex;
         const index = resetIndex ? 0 : this.state.currentImageIndex + 1;
         clearInterval(this.state.timerID);
-        this.state.timerID = setInterval(
-            () => this.tick(),
-            4000
-          );
         this.setState({
             isDisabled : true,
             className : "Slider__elements Slider__go__right"
@@ -97,6 +93,10 @@ class Slider extends React.Component {
                 isDisabled : false
             })
           }, 1000);
+          this.state.timerID = setInterval(
+            () => this.tick(),
+            4000
+          );
     }
     render() {
         const { sliderData } = this.state;
