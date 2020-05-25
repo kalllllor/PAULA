@@ -8,6 +8,8 @@ class Slider extends React.Component {
     constructor() {
         super();
         this.state = {
+            isDisabled : false,
+            timerID : 0,
             currentImageIndex: 0,
 
             className : "Slider__elements Slider__transform",
@@ -40,39 +42,59 @@ class Slider extends React.Component {
         }
         this.nextSlide = this.nextSlide.bind(this);
         this.prevSlide = this.prevSlide.bind(this);
+
+        this.state.timerID = setInterval(
+            () => this.tick(),
+            4000
+          );
     }
+
+  tick() {
+      this.nextSlide()
+  }
 
     prevSlide() {
         const lastIndex = this.state.sliderData.length - 1;
 
         const resetIndex = this.state.currentImageIndex === 0;
         const index = resetIndex ? lastIndex : this.state.currentImageIndex - 1;
-
         this.setState({
+            timerID : 0,
+            isDisabled : true,
             className : "Slider__elements Slider__go__left"
         })
+        clearInterval(this.state.timerID);
+        this.state.timerID = setInterval(
+            () => this.tick(),
+            4000
+          );
         setTimeout(() => {
             this.setState({
                 currentImageIndex: index,
-                className : "Slider__elements Slider__transform"
+                className : "Slider__elements Slider__transform",
+                isDisabled : false
             })
           }, 1000);
     }
 
     nextSlide() {
-        // find the index of the last image in the array
         const lastIndex = this.state.sliderData.length - 1;
-        // check if we need to start over from the first index
         const resetIndex = this.state.currentImageIndex === lastIndex;
         const index = resetIndex ? 0 : this.state.currentImageIndex + 1;
-        // assign the logical index to currentImageIndex that will use in render method
+        clearInterval(this.state.timerID);
+        this.state.timerID = setInterval(
+            () => this.tick(),
+            4000
+          );
         this.setState({
+            isDisabled : true,
             className : "Slider__elements Slider__go__right"
         })
         setTimeout(() => {
             this.setState({
                 currentImageIndex: index,
-                className : "Slider__elements Slider__transform"
+                className : "Slider__elements Slider__transform",
+                isDisabled : false
             })
           }, 1000);
     }
@@ -83,8 +105,8 @@ class Slider extends React.Component {
         const index_right = (index + 1 > this.state.sliderData.length -1 ? 0 : index + 1);        
         return (
             <div className="Slider">
-                <img className="Slider__Arrow prevArrow" src={this.state.arrowPrev} onClick={this.prevSlide} />
-                <img className="Slider__Arrow nextArrow" src={this.state.arrowNext} onClick={this.nextSlide} />
+                <img className="Slider__Arrow prevArrow" src={this.state.arrowPrev} onClick={this.state.isDisabled ? "" : this.prevSlide} />
+                <img className="Slider__Arrow nextArrow" src={this.state.arrowNext} onClick={this.state.isDisabled ? "" : this.nextSlide} />
             <div className={this.state.className}>
                     <div className="Slider__element Slider__left" style={{ backgroundImage: `url(${sliderData[index_left].url})` }}>
                         <div className="Slider__box">
