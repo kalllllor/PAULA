@@ -1,6 +1,6 @@
 .Slider {
     position: relative;
-    height: 45vh;
+    height: 60vh;
     width: 100%;
     background-size: 100% 100%;
     border-top: solid 3vh #FCC700;
@@ -8,28 +8,28 @@
     overflow: hidden;
 }
 
-.Slider__go__left{
+.Slider__go__left {
     transform: translate(0, 0);
-    transition: all 1s;   
+    transition: all 1s;
 }
 
-.Slider__go__right{
+.Slider__go__right {
     transform: translate(-200vw, 0);
-    transition: all 1s;   
+    transition: all 1s;
 }
 
-.Slider__elements{
+.Slider__elements {
     position: absolute;
-    width:300%;
+    width: 300%;
     height: 100%;
 
 }
 
-.Slider__transform{
+.Slider__transform {
     transform: translate(-100vw, 0);
 }
 
-.Slider__element{
+.Slider__element {
     position: absolute;
     height: 100%;
     width: 100vw;
@@ -37,15 +37,15 @@
     background-repeat: no-repeat;
 }
 
-.Slider__left{
+.Slider__left {
     left: 0%;
 }
 
-.Slider__center{
+.Slider__center {
     left: 100vw;
 }
 
-.Slider__right{
+.Slider__right {
     left: 200vw;
 }
 

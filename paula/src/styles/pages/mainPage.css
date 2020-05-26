@@ -23,7 +23,7 @@
 }
 
 .mainPage__aboutFirst {
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-bottom: 2vh;
     transform-style: preserve-3d
 }
@@ -41,7 +41,7 @@
 
 .mainPage__aboutSecond {
     transform-style: preserve-3d;
-    padding-top: 5vh;
+    padding-top: 10vh;
 }
 
 .mainPage__aboutSecond::before {
