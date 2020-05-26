@@ -10,9 +10,7 @@
     width: 40%;
 }
 
-.mainPage__shop{
-
-}
+.mainPage__shop {}
 
 .mainPage__aboutTitle {
     font-size: 4vh;
@@ -22,6 +20,48 @@
 .mainPage__aboutTitle h2 {
     margin: 0;
     margin-top: 4vh;
+}
+
+.mainPage__aboutFirst {
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    transform-style: preserve-3d
+}
+
+.mainPage__aboutFirst::before {
+    position: absolute;
+    transform: translateZ(-1px);
+    content: "";
+    margin-top: 3vh;
+    margin-left: -12.8%;
+    width: 8%;
+    height: 9vh;
+    background-color: #FCC700;
+}
+
+.mainPage__aboutSecond {
+    transform-style: preserve-3d;
+    padding-top: 5vh;
+}
+
+.mainPage__aboutSecond::before {
+    position: absolute;
+    transform: translateZ(-1px);
+    content: "";
+    margin-top: 3vh;
+    margin-left: -1.2%;
+    width: 16%;
+    height: 9vh;
+    background-color: #FCC700;
+}
+
+.mainPage__aboutDescription {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2vh;
+    text-align: justify;
+    padding-bottom: 5vh;
+    border-bottom: 2px solid black;
 }
 
 .mainPage__About {

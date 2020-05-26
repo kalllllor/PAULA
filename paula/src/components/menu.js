@@ -8,18 +8,18 @@ class Menu extends React.Component {
     render() {
         return (
             <div>
-            <div className="Menu">
-                <div className="Menu__logo">
-                    <Link to="/"><img src={logo} alt="logo" /></Link>
+                <div className="Menu">
+                    <div className="Menu__logo">
+                        <Link to="/"><img src={logo} alt="logo" /></Link>
+                    </div>
+                    <div className="Menu__links">
+                        <Link className="link" to="/">Strona Główna</Link>
+                        <Link className="link" to="/about">O nas</Link>
+                        <Link className="link" to="/producers">Producenci</Link>
+                        <Link className="link" to="/contact">Kontakt</Link>
+                    </div>
                 </div>
-                <div className="Menu__links">
-                    <Link className="link" to="/">Strona Główna</Link>
-                    <Link className="link" to="/about">O nas</Link>
-                    <Link className="link" to="/producers">Producenci</Link>
-                    <Link className="link" to="/contact">Kontakt</Link>
-                </div>
-            </div>
-            <div className="Menu__padding" />
+                <div className="Menu__padding" />
             </div>
         )
     }
