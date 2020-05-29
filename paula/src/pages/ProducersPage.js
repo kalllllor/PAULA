@@ -13,7 +13,7 @@ class ProducersPage extends React.Component {
 
         return (
             <div className="mainPage">
-                <Menu />
+                <Menu active = "producersPage" />
                 <Footer />
             </div>
         )
