@@ -5,6 +5,7 @@ import MainPage from '../pages/MainPage'
 import { Link } from "react-router-dom"
 
 class Menu extends React.Component {
+
     render() {
         return (
             <div>
@@ -13,10 +14,10 @@ class Menu extends React.Component {
                         <Link to="/"><img src={logo} alt="logo" /></Link>
                     </div>
                     <div className="Menu__links">
-                        <Link className="link" to="/">Strona Główna</Link>
-                        <Link className="link" to="/about">O nas</Link>
-                        <Link className="link" to="/producers">Producenci</Link>
-                        <Link className="link" to="/contact">Kontakt</Link>
+                        <Link className={"link " + (this.props.active == "mainPage" ? "link__active" : "")} to="/">Strona Główna</Link>
+                        <Link className={"link " + (this.props.active == "aboutPage" ? "link__active" : "")} to="/about">O nas</Link>
+                        <Link className={"link " + (this.props.active == "producersPage" ? "link__active" : "")}to="/producers">Producenci</Link>
+                        <Link className={"link " + (this.props.active == "contactPage" ? "link__active" : "")} to="/contact">Kontakt</Link>
                     </div>
                 </div>
                 <div className="Menu__padding" />

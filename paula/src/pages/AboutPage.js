@@ -13,7 +13,7 @@ class AboutPage extends React.Component {
 
         return (
             <div className="mainPage">
-                <Menu />
+                <Menu active = "aboutPage" />
                 <Footer />
             </div>
         )

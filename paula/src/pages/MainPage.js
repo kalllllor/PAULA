@@ -18,7 +18,7 @@ class MainPage extends React.Component {
 
         return (
             <div className="mainPage">
-                <Menu />
+                <Menu active = "mainPage" />
                 <Slider />
                 <div className="mainPage__aboutTitle mainPage__aboutFirst">
                     <h2>KIM JESTEŚMY</h2>

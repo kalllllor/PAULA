@@ -1,3 +1,8 @@
+a {
+  color: white;
+  text-decoration: none; 
+}
+
 .Menu {
   position: fixed;
   height: 10vh;
@@ -43,17 +48,7 @@
   box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
 }
 
-/* unvisited link */
-.link:link {
-  text-decoration: none;
-  color: white;
-}
 
-/* visited link */
-.link:visited {
-  text-decoration: none;
-  color: white;
-}
 
 /* mouse over link */
 .link:hover {
@@ -64,8 +59,10 @@
   box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
 }
 
-/* selected link */
-.link:active {
+.link__active{
   text-decoration: none;
   color: #FCC700;
+  -webkit-box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
+  -moz-box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
+  box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
 }

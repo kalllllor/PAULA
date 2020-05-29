@@ -13,7 +13,7 @@ class ContactPage extends React.Component {
 
         return (
             <div className="mainPage">
-                <Menu />
+                <Menu active = "contactPage" />
                 <Footer />
             </div>
         )
