@@ -23,36 +23,35 @@
 }
 
 .mainPage__aboutFirst {
-    padding-top: 5vh;
-    padding-bottom: 2vh;
+    width: 23.5%;
+    margin: 5vh auto 5vh auto;
     transform-style: preserve-3d
 }
 
-.mainPage__aboutFirst::before {
+.mainPage__aboutFirst h2::before {
     position: absolute;
     transform: translateZ(-1px);
     content: "";
-    margin-top: 3vh;
-    margin-left: -12.8%;
-    width: 8%;
-    height: 9vh;
+    left: 0;
+    width: 30%;
+    height: 100%;
     background-color: #FCC700;
 }
 
 .mainPage__aboutSecond {
     transform-style: preserve-3d;
-    padding-top: 10vh;
+    width: 27.5%;
+    margin: 5vh auto 5vh auto;
 }
 
-.mainPage__aboutSecond::before {
+.mainPage__aboutSecond h2::before {
     position: absolute;
-    transform: translateZ(-1px);
     content: "";
-    margin-top: 3vh;
-    margin-left: -1.2%;
-    width: 16%;
-    height: 9vh;
+    transform: translateZ(-1px);
     background-color: #FCC700;
+    width: 54%;
+    height: 100%;
+    right: 0;
 }
 
 .mainPage__aboutDescription {

@@ -1,0 +1,100 @@
+.contactPage {
+    background-color: #E5E5E5;
+    padding-bottom: 10vh;
+}
+
+.contactPage__content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contactPage__title {
+    text-align: center;
+    transform-style: preserve-3d;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.contactPage__title h1 {
+    font-size: 6vw;
+    margin: 0;
+    margin-bottom: 4vh;
+}
+
+.contactPage__title h1::before {
+    position: absolute;
+    content: "";
+    transform: translateZ(-1px);
+    background-color: #FCC700;
+    width: 100%;
+    height: 100%;
+    right: 0;
+}
+
+.contactPage__Section {
+    width: 50%;
+}
+
+.container__title {
+    display: inline-block;
+    background-color: #FCC700;
+    -webkit-box-shadow: 10px 10px 0px -3px rgba(0, 0, 0);
+    -moz-box-shadow: 10px 10px 0px -3px rgba(0, 0, 0);
+    box-shadow: 10px 10px 0px -3px rgba(0, 0, 0);
+}
+
+.container__title h2 {
+    margin: 0;
+    font-size: 4.5vh;
+}
+
+.container__content {
+    background-color: black;
+    color: #FCC700;
+    width: 80%;
+    margin: 6px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container__content h3 {
+    margin: 0;
+    font-size: 4vh;
+}
+
+
+.content__left h4 {
+    margin: 0
+}
+
+.content__right,
+.content__left {
+    width: 50%;
+}
+
+.content__left h2,
+.content__right h2 {
+    font-size: 3vh;
+}
+
+.content__right {
+    padding-top: 10vh
+}
+
+.content__right h3 {
+    font-size: 3vh;
+}
+
+.contact__map {
+    border: 0;
+    height: 40vh;
+    width: 80%;
+}
