@@ -43,8 +43,6 @@ a {
   margin: 20px;
   margin-left: 2vw;
   transition: all 0.5s ease-in-out;
-  -webkit-box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
-  -moz-box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
   box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
 }
 
@@ -54,9 +52,6 @@ a {
 .link:hover {
   text-decoration: none;
   color: #FCC700;
-  -webkit-box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
-  -moz-box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
-  box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
 }
 
 .link__active{
@@ -67,9 +62,14 @@ a {
   box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
 }
 
-@keyframes hiding {
+@keyframes hide {
   from {box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700}
   to {  box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700}
+}
+
+@keyframes show {
+  from {box-shadow:  0.8vh 0.8vh 0vh -0.5vh #FCC700}
+  to {  box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700}
 }
 
 .link__hide{
@@ -80,10 +80,26 @@ a {
   text-align: center;
   margin: 20px;
   margin-left: 2vw;
-  animation-name: hiding;
+  animation-name: hide;
   animation-duration: 0.5s;
   transition: all 0.5s ease-in-out;
   box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
 }
+
+.link__show{
+  font-size: 2vh;
+  font-weight: 400;
+  line-height: 5vh;
+  width: 10vw;
+  text-align: center;
+  margin: 20px;
+  margin-left: 2vw;
+  animation-name: show;
+  animation-duration: 0.5s;
+  transition: all 0.5s ease-in-out;
+  box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
+  color: #FCC700;
+}
+
 
 
