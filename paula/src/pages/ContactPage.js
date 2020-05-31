@@ -14,7 +14,7 @@ class ContactPage extends React.Component {
         return (
             <div className="contactPage">
 
-                <Menu active="contactPage" />
+                <Menu active="contactPage" before={this.props.location.before} />
                 <div style={{ borderTop: "solid 3vh #FCC700" }}>
                     <div className="contactPage__title" >
                         <h1>KONTAKT</h1>

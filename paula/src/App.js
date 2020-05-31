@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import Menu from "../src/components/Menu"
 import {
     BrowserRouter as Router,
     Route,
@@ -13,7 +14,6 @@ import AboutPage from "../src/pages/AboutPage"
 import ProducersPage from "../src/pages/ProducersPage"
 import ContactPage from "../src/pages/ContactPage"
 import NotFoundPage from "../src/pages/NotFoundPage"
-
 
 class App extends Component {
     render(){

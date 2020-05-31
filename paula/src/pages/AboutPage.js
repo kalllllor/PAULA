@@ -13,12 +13,11 @@ class AboutPage extends React.Component {
         }
     }
     render() {
-
         return (
             <div>
                 <div className="aboutPage">
 
-                    <Menu active="aboutPage" />
+                    <Menu active="aboutPage" before={this.props.location.before} />
                     <div style={{ borderTop: "solid 3vh #FCC700" }}>
                         <div className="aboutPage__title" >
                             <h1>O NAS</h1>

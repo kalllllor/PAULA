@@ -18,7 +18,7 @@ class MainPage extends React.Component {
 
         return (
             <div className="mainPage">
-                <Menu active = "mainPage" />
+                <Menu active = "mainPage" before={this.props.location.before} />
                 <Slider />
                 <div className="mainPage__aboutTitle mainPage__aboutFirst">
                     <h2>KIM JESTEŚMY</h2>
