@@ -60,6 +60,7 @@
     color: #FCC700;
     width: 80%;
     margin: 6px auto 0 auto;
+    border-bottom: 2vh solid #FCC700;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -94,7 +95,22 @@
 }
 
 .contact__map {
+    position: relative;
+}
+
+.contact__googleMap {
     border: 0;
     height: 40vh;
     width: 80%;
+}
+
+.contact__mapSign {
+    position: absolute;
+    top: 2%;
+    right: 12%;
+}
+
+.contact__mapSign img {
+    width: 90%;
+    height: auto;
 }
