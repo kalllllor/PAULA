@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PAULA/static/css/main.640f67ee.chunk.css",
-    "main.js": "/PAULA/static/js/main.9d9d6bcb.chunk.js",
-    "main.js.map": "/PAULA/static/js/main.9d9d6bcb.chunk.js.map",
+    "main.css": "/PAULA/static/css/main.5473ee57.chunk.css",
+    "main.js": "/PAULA/static/js/main.fdf5307e.chunk.js",
+    "main.js.map": "/PAULA/static/js/main.fdf5307e.chunk.js.map",
     "runtime-main.js": "/PAULA/static/js/runtime-main.371a8e45.js",
     "runtime-main.js.map": "/PAULA/static/js/runtime-main.371a8e45.js.map",
     "static/js/2.d7db425f.chunk.js": "/PAULA/static/js/2.d7db425f.chunk.js",
     "static/js/2.d7db425f.chunk.js.map": "/PAULA/static/js/2.d7db425f.chunk.js.map",
     "index.html": "/PAULA/index.html",
-    "precache-manifest.38c9a90dfd4067dbbef212bb8aa11c5c.js": "/PAULA/precache-manifest.38c9a90dfd4067dbbef212bb8aa11c5c.js",
+    "precache-manifest.3ae3aee7ddda8e45717c2ac9dd4615b6.js": "/PAULA/precache-manifest.3ae3aee7ddda8e45717c2ac9dd4615b6.js",
     "service-worker.js": "/PAULA/service-worker.js",
-    "static/css/main.640f67ee.chunk.css.map": "/PAULA/static/css/main.640f67ee.chunk.css.map",
+    "static/css/main.5473ee57.chunk.css.map": "/PAULA/static/css/main.5473ee57.chunk.css.map",
     "static/js/2.d7db425f.chunk.js.LICENSE.txt": "/PAULA/static/js/2.d7db425f.chunk.js.LICENSE.txt",
     "static/media/dulux.png": "/PAULA/static/media/dulux.1ecb060d.png",
     "static/media/logo.png": "/PAULA/static/media/logo.79653828.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.371a8e45.js",
     "static/js/2.d7db425f.chunk.js",
-    "static/css/main.640f67ee.chunk.css",
-    "static/js/main.9d9d6bcb.chunk.js"
+    "static/css/main.5473ee57.chunk.css",
+    "static/js/main.fdf5307e.chunk.js"
   ]
 }
