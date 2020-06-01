@@ -3,6 +3,8 @@ import Footer from "../components/Footer"
 import Menu from "../components/Menu"
 import "../styles/pages/contactPage.css"
 import mapsSign from "../img/location.png"
+import phoneSign from "../img/phone.png"
+import adressSign from "../img/adress.png"
 class ContactPage extends React.Component {
     constructor() {
         super();
@@ -35,7 +37,9 @@ class ContactPage extends React.Component {
                                     <p><h4>Sobota:</h4> 8:00 - 18:00</p>
                                 </div>
                                 <div className="content__right">
+                                    <img src={adressSign} alt="" />
                                     <h3>ul. Proszowska 23</h3>
+                                    <img src={phoneSign} alt="" />
                                     <h3>tel. 12 388 30 62</h3>
                                     <h3>tel. 12 388 03 40</h3>
                                 </div>
@@ -62,7 +66,9 @@ class ContactPage extends React.Component {
                                     <p><h4>Sobota:</h4> 8:00 - 18:00</p>
                                 </div>
                                 <div className="content__right">
+                                    <img src={adressSign} alt="" />
                                     <h3>ul. Sienkiewicza 53</h3>
+                                    <img src={phoneSign} alt="" />
                                     <h3>tel. 41 38 40 400</h3>
                                 </div>
                             </div>

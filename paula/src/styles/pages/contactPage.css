@@ -56,11 +56,11 @@
 }
 
 .container__content {
-    background-color: black;
-    color: #FCC700;
+    color: black;
     width: 80%;
     margin: 6px auto 0 auto;
-    border-bottom: 2vh solid #FCC700;
+    border-top: 2vh solid black;
+    border-bottom: 2vh solid black;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -76,6 +76,10 @@
     margin: 0
 }
 
+.content__left p {
+    margin-top: 2vh;
+}
+
 .content__right,
 .content__left {
     width: 50%;
@@ -87,11 +91,17 @@
 }
 
 .content__right {
-    padding-top: 10vh
+    padding-top: 5vh;
+}
+
+.content__right img {
+    max-width: 4vw;
+    height: auto;
+    padding: 3vh 0 1vh 0;
 }
 
 .content__right h3 {
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 .contact__map {
