@@ -32,9 +32,9 @@
     position: absolute;
     transform: translateZ(-1px);
     content: "";
-    left: 0;
-    width: 30%;
-    height: 100%;
+    left: 3%;
+    width: 28%;
+    height: 90%;
     background-color: #FCC700;
 }
 
@@ -49,9 +49,9 @@
     content: "";
     transform: translateZ(-1px);
     background-color: #FCC700;
-    width: 54%;
-    height: 100%;
-    right: 0;
+    width: 51.5%;
+    height: 92%;
+    right: 2.5%;
 }
 
 .mainPage__aboutDescription {
