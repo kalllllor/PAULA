@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PAULA/static/css/main.640f67ee.chunk.css",
-    "main.js": "/PAULA/static/js/main.80568d34.chunk.js",
-    "main.js.map": "/PAULA/static/js/main.80568d34.chunk.js.map",
+    "main.js": "/PAULA/static/js/main.9d9d6bcb.chunk.js",
+    "main.js.map": "/PAULA/static/js/main.9d9d6bcb.chunk.js.map",
     "runtime-main.js": "/PAULA/static/js/runtime-main.371a8e45.js",
     "runtime-main.js.map": "/PAULA/static/js/runtime-main.371a8e45.js.map",
     "static/js/2.d7db425f.chunk.js": "/PAULA/static/js/2.d7db425f.chunk.js",
     "static/js/2.d7db425f.chunk.js.map": "/PAULA/static/js/2.d7db425f.chunk.js.map",
     "index.html": "/PAULA/index.html",
-    "precache-manifest.fbe9658f20537aed63fe28a5282f7877.js": "/PAULA/precache-manifest.fbe9658f20537aed63fe28a5282f7877.js",
+    "precache-manifest.38c9a90dfd4067dbbef212bb8aa11c5c.js": "/PAULA/precache-manifest.38c9a90dfd4067dbbef212bb8aa11c5c.js",
     "service-worker.js": "/PAULA/service-worker.js",
     "static/css/main.640f67ee.chunk.css.map": "/PAULA/static/css/main.640f67ee.chunk.css.map",
     "static/js/2.d7db425f.chunk.js.LICENSE.txt": "/PAULA/static/js/2.d7db425f.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.371a8e45.js",
     "static/js/2.d7db425f.chunk.js",
     "static/css/main.640f67ee.chunk.css",
-    "static/js/main.80568d34.chunk.js"
+    "static/js/main.9d9d6bcb.chunk.js"
   ]
 }
