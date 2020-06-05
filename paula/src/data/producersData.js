@@ -5,7 +5,8 @@ export const producersData = [
     { title: "Krono", favicon: "krono.png", },
     { title: "Neotherm", favicon: "neotherm.jpg", },
     { title: "Rigips", favicon: "rigips.png", },
-    { title: "Chyżbet", favicon: "rigips.png", },
+    { title: "Chyżbet", favicon: "chyzbet.jpg", },
     { title: "Wienerberger", favicon: "wienerberger.png", },
+    { title: "Pruszynski", favicon: "pruszynski.png", },
 
 ]
