@@ -1,12 +1,15 @@
 export const producersData = [
-    { title: "Isover", favicon: "isover.jpg", },
-    { title: "Fakro", favicon: "fakro.png", },
-    { title: "Schiedl", favicon: "schiedel.png", },
-    { title: "Krono", favicon: "krono.png", },
-    { title: "Neotherm", favicon: "neotherm.jpg", },
-    { title: "Rigips", favicon: "rigips.png", },
-    { title: "Chyżbet", favicon: "chyzbet.jpg", },
-    { title: "Wienerberger", favicon: "wienerberger.png", },
-    { title: "Pruszynski", favicon: "pruszynski.png", },
-
+    { favicon: "isover.png", },
+    { favicon: "fakro.png", },
+    { favicon: "schiedel.png", },
+    { favicon: "krono.png", },
+    { favicon: "neotherm.jpg", },
+    { favicon: "rigips.png", },
+    { favicon: "chyzbet.png" },
+    { favicon: "wienerberger.png", },
+    { favicon: "pruszynski.png", },
+    { favicon: "kreisel.gif", },
+    { favicon: "atlas.png", },
+    { favicon: "ytong.png"},
+    { favicon: "roben.png"}
 ]
