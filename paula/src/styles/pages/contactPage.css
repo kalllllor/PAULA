@@ -6,7 +6,6 @@
 .contactPage__content {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10vh;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -25,7 +24,6 @@
 .contactPage__title h1 {
     font-size: 6vw;
     margin: 0;
-    margin-bottom: 4vh;
 }
 
 .contactPage__title h1::before {
@@ -39,7 +37,8 @@
 }
 
 .contactPage__Section {
-    width: 50%;
+    width: 40rem;
+    margin: 5rem auto 0 auto;
 }
 
 .container__title {
@@ -57,7 +56,8 @@
 
 .container__content {
     color: black;
-    width: 80%;
+    width: 90%;
+    height: 42%;
     margin: 6px auto 0 auto;
     border-top: 2vh solid black;
     border-bottom: 2vh solid black;
@@ -69,6 +69,7 @@
 .container__content h3 {
     margin: 0;
     font-size: 4vh;
+    display: inline;
 }
 
 
@@ -77,31 +78,42 @@
 }
 
 .content__left p {
-    margin-top: 2vh;
+    margin: 1rem;
 }
 
-.content__right,
+
 .content__left {
-    width: 50%;
+    width: 40%;
 }
 
 .content__left h2,
 .content__right h2 {
-    font-size: 3vh;
+    font-size: 1.3rem;
 }
 
 .content__right {
-    padding-top: 5vh;
+    margin: auto 0;
+    height: 90%;
+    width: 60%;
 }
 
-.content__right img {
-    max-width: 4vw;
-    height: auto;
-    padding: 3vh 0 1vh 0;
+.content__contact {
+    height: 30%;
+    padding: 0 1.9rem;
+    margin: 0.4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-.content__right h3 {
-    font-size: 2.5vh;
+.content__contact h3 {
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.content__contact img {
+    margin: 0;
+    width: 3rem;
 }
 
 .contact__map {
@@ -110,8 +122,8 @@
 
 .contact__googleMap {
     border: 0;
-    height: 40vh;
-    width: 80%;
+    height: 20rem;
+    width: 36rem;
 }
 
 .contact__mapSign {

@@ -10,8 +10,6 @@
     width: 40%;
 }
 
-.mainPage__shop {}
-
 .mainPage__aboutTitle {
     font-size: 4vh;
     text-align: center;
@@ -23,25 +21,37 @@
 }
 
 .mainPage__aboutFirst {
-    width: 23.5%;
+    width: 40%;
     margin: 5vh auto 5vh auto;
     transform-style: preserve-3d
 }
 
+.mainPage__aboutFirst h2 {
+    font-size: 4vw;
+    margin: 0;
+    margin-bottom: 4vh;
+}
+
 .mainPage__aboutFirst h2::before {
     position: absolute;
-    transform: translateZ(-1px);
     content: "";
-    left: 3%;
-    width: 28%;
-    height: 90%;
+    transform: translateZ(-1px);
+    left: 13%;
+    width: 23%;
+    height: 100%;
     background-color: #FCC700;
 }
 
 .mainPage__aboutSecond {
     transform-style: preserve-3d;
-    width: 27.5%;
-    margin: 5vh auto 5vh auto;
+    width: 40%;
+    margin: 10vh auto 5vh auto;
+}
+
+.mainPage__aboutSecond h2 {
+    font-size: 4vw;
+    margin: 0;
+    margin-bottom: 4vh;
 }
 
 .mainPage__aboutSecond h2::before {
@@ -49,9 +59,9 @@
     content: "";
     transform: translateZ(-1px);
     background-color: #FCC700;
-    width: 51.5%;
-    height: 92%;
-    right: 2.5%;
+    width: 48%;
+    height: 100%;
+    right: 6%;
 }
 
 .mainPage__aboutDescription {
@@ -59,7 +69,7 @@
     margin-right: 10%;
     font-size: 2vh;
     text-align: justify;
-    padding-bottom: 5vh;
+    padding-bottom: 1vh;
     border-bottom: 2px solid black;
 }
 

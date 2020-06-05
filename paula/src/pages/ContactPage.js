@@ -5,6 +5,7 @@ import "../styles/pages/contactPage.css"
 import mapsSign from "../img/location.png"
 import phoneSign from "../img/phone.png"
 import adressSign from "../img/adress.png"
+import mailSign from "../img/mail.png"
 class ContactPage extends React.Component {
     constructor() {
         super();
@@ -15,7 +16,7 @@ class ContactPage extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0)
     }
-    
+
     render() {
 
         return (
@@ -34,19 +35,25 @@ class ContactPage extends React.Component {
                             <div className="container__content">
                                 <div className="content__left">
                                     <h2>GODZINY OTWARCIA</h2>
-                                    <p><h4>Poniedziałek:</h4> 8:00 - 18:00</p>
-                                    <p><h4>Wtorek:</h4> 8:00 - 18:00</p>
-                                    <p><h4>Środa:</h4> 8:00 - 18:00</p>
-                                    <p><h4>Czwartek:</h4> 8:00 - 18:00</p>
-                                    <p><h4>Piątek:</h4> 8:00 - 18:00</p>
-                                    <p><h4>Sobota:</h4> 8:00 - 18:00</p>
+                                    <p><h4>Poniedziałek - Piątek:</h4> 7:00 - 18:00</p>
+                                    <p><h4>Sobota:</h4> 7:00 - 14:00</p>
+                                    <p><h4>Niedziela:</h4> nieczynne</p>
                                 </div>
                                 <div className="content__right">
-                                    <img src={adressSign} alt="" />
-                                    <h3>ul. Proszowska 23</h3>
-                                    <img src={phoneSign} alt="" />
-                                    <h3>tel. 12 388 30 62</h3>
-                                    <h3>tel. 12 388 03 40</h3>
+                                    <div className="content__contact">
+                                        <img src={adressSign} alt="" />
+                                        <h3>ul. Proszowska 23 </h3>
+                                        <h3>32-200 Miechów</h3>
+                                    </div>
+                                    <div className="content__contact">
+                                        <img src={phoneSign} alt="" />
+                                        <h3>12 388 30 62</h3>
+                                        <h3>660 693 467</h3>
+                                    </div>
+                                    <div className="content__contact">
+                                        <img src={mailSign} alt="" />
+                                        <h3>paulaslomniki@o2.pl</h3>
+                                    </div>
                                 </div>
                             </div>
                             <div className="contact__map">
@@ -63,18 +70,96 @@ class ContactPage extends React.Component {
                             <div className="container__content">
                                 <div className="content__left">
                                     <h2>GODZINY OTWARCIA</h2>
-                                    <p><h4>Poniedziałek:</h4> 8:00 - 18:00</p>
-                                    <p><h4>Wtorek:</h4> 8:00 - 18:00</p>
-                                    <p><h4>Środa:</h4> 8:00 - 18:00</p>
-                                    <p><h4>Czwartek:</h4> 8:00 - 18:00</p>
-                                    <p><h4>Piątek:</h4> 8:00 - 18:00</p>
-                                    <p><h4>Sobota:</h4> 8:00 - 18:00</p>
+                                    <p><h4>Poniedziałek - Piątek:</h4> 7:00 - 17:00</p>
+                                    <p><h4>Sobota:</h4> 7:00 - 14:00</p>
+                                    <p><h4>Niedziela:</h4> nieczynne</p>
                                 </div>
                                 <div className="content__right">
-                                    <img src={adressSign} alt="" />
-                                    <h3>ul. Sienkiewicza 53</h3>
-                                    <img src={phoneSign} alt="" />
-                                    <h3>tel. 41 38 40 400</h3>
+                                    <div className="content__contact">
+                                        <img src={adressSign} alt="" />
+                                        <h3>ul. Sienkiewicza 53</h3>
+                                        <h3>32-200 Miechów</h3>
+                                    </div>
+                                    <div className="content__contact">
+                                        <img src={phoneSign} alt="" />
+                                        <h3>795 581 025</h3>
+                                        <h3>41 38 40 400</h3>
+                                        <h3>41 35 14 221</h3>
+                                    </div>
+                                    <div className="content__contact">
+                                        <img src={mailSign} alt="" />
+                                        <h3>paulamiechow@o2.pl</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="contact__map">
+                                <div className="contact__mapSign">
+                                    <img src={mapsSign} alt="" />
+                                </div>
+                                <iframe className="contact__googleMap" title="oddzialSlomniki" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.268326255891!2d20.008755822243096!3d50.35688891743078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717abd2d68f6cb7%3A0x532dfc1aa9c8ecf!2sHenryka%20Sienkiewicza%2053%2C%2032-200%20Miech%C3%B3w!5e0!3m2!1spl!2spl!4v1590180766079!5m2!1spl!2spl" />
+                            </div>
+                        </div>
+                        <div className="contactPage__Section">
+                            <div className="container__title">
+                                <h2>PAULA II WOD-KAN CO GAZ</h2>
+                            </div>
+                            <div className="container__content">
+                                <div className="content__left">
+                                    <h2>GODZINY OTWARCIA</h2>
+                                    <p><h4>Poniedziałek - Piątek:</h4> 7:00 - 18:00</p>
+                                    <p><h4>Sobota:</h4> 7:00 - 14:00</p>
+                                    <p><h4>Niedziela:</h4> nieczynne</p>
+                                </div>
+                                <div className="content__right">
+                                    <div className="content__contact">
+                                        <img src={adressSign} alt="" />
+                                        <h3>ul. Proszowska 23</h3>
+                                        <h3>32-090 Słomniki</h3>
+                                    </div>
+                                    <div className="content__contact">
+                                        <img src={phoneSign} alt="" />
+                                        <h3>606 645 987</h3>
+                                        <h3>12 388 03 40</h3>
+                                    </div>
+                                    <div className="content__contact">
+                                        <img src={mailSign} alt="" />
+                                        <h3>paulasklep2@gmail.pl</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="contact__map">
+                                <div className="contact__mapSign">
+                                    <img src={mapsSign} alt="" />
+                                </div>
+                                <iframe className="contact__googleMap" title="oddzialSlomniki" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.268326255891!2d20.008755822243096!3d50.35688891743078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717abd2d68f6cb7%3A0x532dfc1aa9c8ecf!2sHenryka%20Sienkiewicza%2053%2C%2032-200%20Miech%C3%B3w!5e0!3m2!1spl!2spl!4v1590180766079!5m2!1spl!2spl" />
+                            </div>
+                        </div>
+                        <div className="contactPage__Section">
+                            <div className="container__title">
+                                <h2>PAULA DROGERIE POLSKIE</h2>
+                            </div>
+                            <div className="container__content">
+                                <div className="content__left">
+                                    <h2>GODZINY OTWARCIA</h2>
+                                    <p><h4>Poniedziałek - Piątek:</h4> 8:30 - 19:00</p>
+                                    <p><h4>Sobota:</h4> 8:00 - 19:00</p>
+                                    <p><h4>Niedziela:</h4> nieczynne</p>
+                                </div>
+                                <div className="content__right">
+                                    <div className="content__contact">
+                                        <img src={adressSign} alt="" />
+                                        <h3>ul. Proszowska 7</h3>
+                                        <h3>32-090 Słomniki</h3>
+                                    </div>
+                                    <div className="content__contact">
+                                        <img src={phoneSign} alt="" />
+                                        <h3>606 461 683</h3>
+                                        <h3>12 388 16 64</h3>
+                                    </div>
+                                    <div className="content__contact">
+                                        <img src={mailSign} alt="" />
+                                        <h3>sklep.paula@o2.pl</h3>
+                                    </div>
                                 </div>
                             </div>
                             <div className="contact__map">
