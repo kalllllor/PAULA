@@ -16,7 +16,7 @@ class AboutPage extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0)
     }
-    
+
     render() {
         return (
             <div>
@@ -57,6 +57,21 @@ class AboutPage extends React.Component {
                                 </div>
                             </div>
 
+                        </div>
+                        <div className="aboutPage__Section">
+                            <div className="Section__container container__underline">
+                                <div className="container__text">
+                                    <div className="container__textTitle">
+                                        <h2>DOŚWIADCZENIE</h2>
+                                    </div>
+                                    <p>Od 1998 roku stanowimy istotny element dynamicznie rozwijającego się lokalnego rynku branży materiałów budowlanych. Od początku swojego istnienia stawiamy przede wszystkim na partnerstwo z firmami z sektora budowlanego, dzięki czemu jesteśmy dziś znanym i preferowanym dostawcą technologii i innowacyjnych rozwiązań w tej branży. Jako Firma Handlowa Paula zapewniamy obsługę firmom wykonawczym i prowadzimy także sprzedaż detaliczną.</p>
+                                </div>
+                            </div>
+                            <div className="Section__container">
+                                <div className="container__image">
+                                    <img src={image} alt="" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
