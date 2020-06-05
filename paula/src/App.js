@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import Menu from "../src/components/Menu"
+import Menu from "./components/Menu"
 import {
     BrowserRouter as Router,
     Route,
