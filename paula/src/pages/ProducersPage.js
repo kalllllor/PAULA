@@ -23,19 +23,21 @@ class ContactPage extends React.Component {
                     <div className="producersPage__title" >
                         <h1>PRODUCENCI</h1>
                     </div>
-                <div className="producersPage__description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci lorem, efficitur nec metus et, congue posuere risus. Duis tristique facilisis purus eleifend rutrum. Mauris in laoreet felis, nec malesuada turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed mollis at odio ac rutrum. Sed felis ipsum, mattis vel egestas nec, vehicula ac risus. Cras vel justo sagittis, tincidunt est eu, ullamcorper sem. Sed fringilla ac sapien at pellentesque. Morbi sit amet turpis sapien. Sed feugiat, magna non dictum hendrerit, sapien dolor fringilla sem, convallis elementum nulla urna nec nibh. Suspendisse ut pretium augue. Vivamus sed malesuada velit.</p>
+                    <div className="producersPage__description">
+                        <p>Wieloletnia współpraca z najważniejszymi producentami na rynku, pozwala nam nie tylko oferować materiały
+                    po korzystnych cenach, ale także wdrażać wspólnie nowe, innowacyjne technologie.</p>
+                        <h2>Jesteśmy dystrybutorem produktów firm:</h2>
+                    </div>
+                    <div className="producersPage__content">
+                        {producersData.map(item => {
+                            return (
+                                <div className="producersPage__Section">
+                                    <img src={require(`../img/producers/${item.favicon}`)} alt="" />
+                                </div>
+                            )
+                        })}
+                    </div>
                 </div>
-                <div className="producersPage__content">
-                    {producersData.map(item => {
-                        return (
-                            <div className="producersPage__Section">
-                                <img src={require(`../img/producers/${item.favicon}`)} alt="" />
-                            </div>
-                        )
-                    })}
-                </div>
-            </div>
                 <Footer />
             </div>
         )

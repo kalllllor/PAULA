@@ -1,5 +1,10 @@
+import hammer from "../img/hammer.png"
+import customer from "../img/customer.png"
+import discount from "../img/discount.png"
+import transport from "../img/transport.png"
 export const aboutData = [
-    { title: "DOŚWIADCZENIA", favicon: "XD", description: "Hurtownie PAULA to przede wszystkim doradcy budowlani z wieloletnim, praktycznym doświadczeniem w branży, zapewniający doradztwo i fachowe wyliczenie ilości materiałów budowlanych niezbędnych do budowy domu - od fundamentu aż po dach." },
-    { title: "RZETELNOŚĆ", favicon: "XD", description: "W działalności naszej firmy przykładamy szczególną wagę do fachowośc, rzetelności, terminowości oraz solidności. Budując wizerunek fimry w oparciu o te cechy zyskujemy coraz większe zaufanie naszych klientów - zarówno dostawców, jak i odbiorców. Dowodem tego są różne wyróżnienia od producentów." },
-    { title: "NISKIE CENY", favicon: "XD", description: "Wieloletnia współpraca z najważniejszymi producentami na rynku pozwala nam nie tylko oferować materiały po korzystnych cenach, ale także wdrażać wspólnie nowe, innowacyjne technologie." }
+    { title: "DOŚWIADCZENIE", icon: hammer, description: "Na rynku od ponad 20 lat!" },
+    { title: "RZETELNOŚĆ", icon: customer, description: "Najważniejszy jest dla nas zadowolony klient!" },
+    { title: "NISKIE CENY", icon: discount, description: "Atrakcyjne i konkurencyjne ceny!" },
+    { title: "TRANSPORT", icon: transport, description: "Zapewniamy transport artykułów!" }
 ]

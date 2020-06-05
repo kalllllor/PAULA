@@ -32,11 +32,23 @@ class Menu extends React.Component {
                                 before: this.props.active
                             }}>Producenci
                         </Link>
+                        <Link className={"link" + (this.props.active === "chemistPage" ? " link__show" : "") + (this.props.before === "contactPage" ? " chemistLink__hide" : "")}
+                            to={{
+                                pathname: "/chemist",
+                                before: this.props.active
+                            }}>Drogerie
+                        </Link>
                         <Link className={"link" + (this.props.active === "contactPage" ? " link__show" : "") + (this.props.before === "contactPage" ? " link__hide" : "")}
                             to={{
                                 pathname: "/contact",
                                 before: this.props.active
                             }}>Kontakt
+                        </Link>
+                        <Link className={"link" + (this.props.active === "RODOPage" ? " link__show" : "") + (this.props.before === "RODOPage" ? " link__hide" : "")}
+                            to={{
+                                pathname: "/RODO",
+                                before: this.props.active
+                            }}>RODO
                         </Link>
                     </div>
                 </div>
