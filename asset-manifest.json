@@ -1,28 +1,38 @@
 {
   "files": {
-    "main.css": "/PAULA/static/css/main.5473ee57.chunk.css",
-    "main.js": "/PAULA/static/js/main.fdf5307e.chunk.js",
-    "main.js.map": "/PAULA/static/js/main.fdf5307e.chunk.js.map",
+    "main.css": "/PAULA/static/css/main.7e203ba3.chunk.css",
+    "main.js": "/PAULA/static/js/main.727619f2.chunk.js",
+    "main.js.map": "/PAULA/static/js/main.727619f2.chunk.js.map",
     "runtime-main.js": "/PAULA/static/js/runtime-main.371a8e45.js",
     "runtime-main.js.map": "/PAULA/static/js/runtime-main.371a8e45.js.map",
-    "static/js/2.d7db425f.chunk.js": "/PAULA/static/js/2.d7db425f.chunk.js",
-    "static/js/2.d7db425f.chunk.js.map": "/PAULA/static/js/2.d7db425f.chunk.js.map",
+    "static/js/2.8f80f26f.chunk.js": "/PAULA/static/js/2.8f80f26f.chunk.js",
+    "static/js/2.8f80f26f.chunk.js.map": "/PAULA/static/js/2.8f80f26f.chunk.js.map",
     "index.html": "/PAULA/index.html",
-    "precache-manifest.3ae3aee7ddda8e45717c2ac9dd4615b6.js": "/PAULA/precache-manifest.3ae3aee7ddda8e45717c2ac9dd4615b6.js",
+    "precache-manifest.f2dc0a1886d379b3c8bfcc085bd77d93.js": "/PAULA/precache-manifest.f2dc0a1886d379b3c8bfcc085bd77d93.js",
     "service-worker.js": "/PAULA/service-worker.js",
-    "static/css/main.5473ee57.chunk.css.map": "/PAULA/static/css/main.5473ee57.chunk.css.map",
-    "static/js/2.d7db425f.chunk.js.LICENSE.txt": "/PAULA/static/js/2.d7db425f.chunk.js.LICENSE.txt",
-    "static/media/dulux.png": "/PAULA/static/media/dulux.1ecb060d.png",
+    "static/css/main.7e203ba3.chunk.css.map": "/PAULA/static/css/main.7e203ba3.chunk.css.map",
+    "static/js/2.8f80f26f.chunk.js.LICENSE.txt": "/PAULA/static/js/2.8f80f26f.chunk.js.LICENSE.txt",
+    "static/media/atlas.png": "/PAULA/static/media/atlas.4d3907cb.png",
+    "static/media/chyzbet.png": "/PAULA/static/media/chyzbet.0382ca7a.png",
+    "static/media/fakro.png": "/PAULA/static/media/fakro.6cc438d4.png",
+    "static/media/isover.png": "/PAULA/static/media/isover.625762a0.png",
+    "static/media/kreisel.gif": "/PAULA/static/media/kreisel.a69a3261.gif",
+    "static/media/krono.png": "/PAULA/static/media/krono.ef71255c.png",
     "static/media/logo.png": "/PAULA/static/media/logo.79653828.png",
+    "static/media/neotherm.jpg": "/PAULA/static/media/neotherm.d64aa62d.jpg",
+    "static/media/rigips.png": "/PAULA/static/media/rigips.14121932.png",
+    "static/media/roben.png": "/PAULA/static/media/roben.250061a6.png",
+    "static/media/schiedel.png": "/PAULA/static/media/schiedel.83b53d8a.png",
     "static/media/slider_example1.jpg": "/PAULA/static/media/slider_example1.35584cfa.jpg",
     "static/media/slider_example2.png": "/PAULA/static/media/slider_example2.f046d97b.png",
     "static/media/slider_example3.jpg": "/PAULA/static/media/slider_example3.6953b7c4.jpg",
-    "static/media/wienerberger.svg.png": "/PAULA/static/media/wienerberger.svg.928bff74.png"
+    "static/media/wienerberger.png": "/PAULA/static/media/wienerberger.928bff74.png",
+    "static/media/ytong.png": "/PAULA/static/media/ytong.5fd83a82.png"
   },
   "entrypoints": [
     "static/js/runtime-main.371a8e45.js",
-    "static/js/2.d7db425f.chunk.js",
-    "static/css/main.5473ee57.chunk.css",
-    "static/js/main.fdf5307e.chunk.js"
+    "static/js/2.8f80f26f.chunk.js",
+    "static/css/main.7e203ba3.chunk.css",
+    "static/js/main.727619f2.chunk.js"
   ]
 }
