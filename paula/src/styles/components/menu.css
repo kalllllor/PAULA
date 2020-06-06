@@ -2,9 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-  overflow: scroll;
-}
 
 ::-webkit-scrollbar {
   width: 0px;
