@@ -9,8 +9,8 @@
 
 .Footer__content {
     height: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
     justify-content: space-between;
     display: flex;
 
@@ -22,12 +22,12 @@
 }
 
 .Footer__contener h2 {
-    font-size: 3.5vh;
+    font-size: 1.5vw;
 }
 
 .Footer__contener h3 {
 
-    font-size: 2vh;
+    font-size: 1vw;
     margin-top: 3vh;
     margin-bottom: 0.5vh;
 }
@@ -39,7 +39,7 @@
 }
 
 .Footer__contener p {
-    font-size: 2vh;
+    font-size: 1.1vw;
     margin: 0
 }
 

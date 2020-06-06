@@ -21,13 +21,12 @@ class Footer extends React.Component {
                     </div>
                     <div className="Footer__contener">
                         <h2>GODZINY OTWARCIA</h2>
-                        <p><h4>Poniedziałek:</h4> 8:00 - 18:00</p>
-                        <p><h4>Wtorek:</h4> 8:00 - 18:00</p>
-                        <p><h4>Środa:</h4> 8:00 - 18:00</p>
-                        <p><h4>Czwartek:</h4> 8:00 - 18:00</p>
-                        <p><h4>Piątek:</h4> 8:00 - 18:00</p>
-                        <p><h4>Sobota:</h4> 8:00 - 18:00</p>
-                        <p><h4>Niedziela:</h4> 8:00 - 18:00</p>
+                        <h3>ODDZIAŁ SŁOMNIKI</h3>
+                        <p>pn-pt 7-18</p>
+                        <p>pn-pt 7-14</p>
+                        <h3>ODDZIAŁ MIECHÓW</h3>
+                        <p>pn-pt 7-17</p>
+                        <p>pn-pt 7-14</p>
                     </div>
                     <div className="Footer__contener">
                         <iframe className="Footer__map" title="oddzialMiechow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.1995532974543!2d20.084276602770252!3d50.24011881618411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165294cab2fbf9%3A0x92062f2cf9df58b1!2sProszowska%2023%2C%2032-090%20S%C5%82omniki!5e0!3m2!1spl!2spl!4v1590180122445!5m2!1spl!2spl" />

@@ -39,11 +39,10 @@ a {
 }
 
 .link {
-  border: 0.6rem black solid;
+  border: 0.8rem black solid;
   box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 400;
-  transform-style: preserve-3d
 }
 
 /* mouse over link */
