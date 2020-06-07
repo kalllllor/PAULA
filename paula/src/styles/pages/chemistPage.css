@@ -64,7 +64,13 @@
 .chemistPage__container__web{
     position: relative;
     display: flex;
-    margin-bottom: 1vh;
+    font-size: 2vh;
+    margin-bottom: 2vh;
+    height: 12vh;
+}
+
+.chemistPage__container__web img{
+    height: 100%;
 }
 
 .chemistPage__container__web h2{
