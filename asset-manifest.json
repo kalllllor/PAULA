@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/PAULA/static/css/main.7e203ba3.chunk.css",
-    "main.js": "/PAULA/static/js/main.727619f2.chunk.js",
-    "main.js.map": "/PAULA/static/js/main.727619f2.chunk.js.map",
+    "main.css": "/PAULA/static/css/main.17c649a4.chunk.css",
+    "main.js": "/PAULA/static/js/main.96cd50f5.chunk.js",
+    "main.js.map": "/PAULA/static/js/main.96cd50f5.chunk.js.map",
     "runtime-main.js": "/PAULA/static/js/runtime-main.371a8e45.js",
     "runtime-main.js.map": "/PAULA/static/js/runtime-main.371a8e45.js.map",
-    "static/js/2.8f80f26f.chunk.js": "/PAULA/static/js/2.8f80f26f.chunk.js",
-    "static/js/2.8f80f26f.chunk.js.map": "/PAULA/static/js/2.8f80f26f.chunk.js.map",
+    "static/js/2.48a68576.chunk.js": "/PAULA/static/js/2.48a68576.chunk.js",
+    "static/js/2.48a68576.chunk.js.map": "/PAULA/static/js/2.48a68576.chunk.js.map",
     "index.html": "/PAULA/index.html",
-    "precache-manifest.f2dc0a1886d379b3c8bfcc085bd77d93.js": "/PAULA/precache-manifest.f2dc0a1886d379b3c8bfcc085bd77d93.js",
+    "precache-manifest.22d85f0b90572e2a6a575197f21b98ff.js": "/PAULA/precache-manifest.22d85f0b90572e2a6a575197f21b98ff.js",
     "service-worker.js": "/PAULA/service-worker.js",
-    "static/css/main.7e203ba3.chunk.css.map": "/PAULA/static/css/main.7e203ba3.chunk.css.map",
-    "static/js/2.8f80f26f.chunk.js.LICENSE.txt": "/PAULA/static/js/2.8f80f26f.chunk.js.LICENSE.txt",
+    "static/css/main.17c649a4.chunk.css.map": "/PAULA/static/css/main.17c649a4.chunk.css.map",
+    "static/js/2.48a68576.chunk.js.LICENSE.txt": "/PAULA/static/js/2.48a68576.chunk.js.LICENSE.txt",
     "static/media/atlas.png": "/PAULA/static/media/atlas.4d3907cb.png",
     "static/media/chyzbet.png": "/PAULA/static/media/chyzbet.0382ca7a.png",
     "static/media/fakro.png": "/PAULA/static/media/fakro.6cc438d4.png",
+    "static/media/foveotech.gif": "/PAULA/static/media/foveotech.6e550add.gif",
     "static/media/isover.png": "/PAULA/static/media/isover.625762a0.png",
+    "static/media/kabe.png": "/PAULA/static/media/kabe.335a8181.png",
+    "static/media/kabe_backup.png": "/PAULA/static/media/kabe_backup.75eac747.png",
     "static/media/kreisel.gif": "/PAULA/static/media/kreisel.a69a3261.gif",
     "static/media/krono.png": "/PAULA/static/media/krono.ef71255c.png",
+    "static/media/lakma.png": "/PAULA/static/media/lakma.34149594.png",
+    "static/media/lakma_backup.png": "/PAULA/static/media/lakma_backup.73bacaef.png",
     "static/media/logo.png": "/PAULA/static/media/logo.79653828.png",
     "static/media/neotherm.jpg": "/PAULA/static/media/neotherm.d64aa62d.jpg",
+    "static/media/pruszynski.png": "/PAULA/static/media/pruszynski.c542be49.png",
     "static/media/rigips.png": "/PAULA/static/media/rigips.14121932.png",
     "static/media/roben.png": "/PAULA/static/media/roben.250061a6.png",
     "static/media/schiedel.png": "/PAULA/static/media/schiedel.83b53d8a.png",
@@ -27,12 +33,12 @@
     "static/media/slider_example2.png": "/PAULA/static/media/slider_example2.f046d97b.png",
     "static/media/slider_example3.jpg": "/PAULA/static/media/slider_example3.6953b7c4.jpg",
     "static/media/wienerberger.png": "/PAULA/static/media/wienerberger.928bff74.png",
-    "static/media/ytong.png": "/PAULA/static/media/ytong.5fd83a82.png"
+    "static/media/ytong.png": "/PAULA/static/media/ytong.60e7ca64.png"
   },
   "entrypoints": [
     "static/js/runtime-main.371a8e45.js",
-    "static/js/2.8f80f26f.chunk.js",
-    "static/css/main.7e203ba3.chunk.css",
-    "static/js/main.727619f2.chunk.js"
+    "static/js/2.48a68576.chunk.js",
+    "static/css/main.17c649a4.chunk.css",
+    "static/js/main.96cd50f5.chunk.js"
   ]
 }
