@@ -27,30 +27,30 @@ class AboutPage extends React.Component {
                             <h1>O NAS</h1>
                         </div>
                         <div className="aboutPage__Section">
-                            <div className="Section__container container__underline">
-                                <div className="container__text">
-                                    <div className="container__textTitle">
+                            <div className="aboutPage__Section__container aboutPage__container__underline">
+                                <div className="aboutPage__container__text">
+                                    <div className="aboutPage__container__textTitle">
                                         <h2>DOŚWIADCZENIE</h2>
                                     </div>
                                     <p>Hurtownie PAULA to przede wszystkim doradcy budowlani z wieloletnim, praktycznym doświadczeniem w branży
                                     zapewniający doradctwo i fachowe wyliczenie ilości materiałów budowlanych niezbędnych do budowy domu, od fundamentu aż po dach.</p>
                                 </div>
                             </div>
-                            <div className="Section__container">
-                                <div className="container__image">
+                            <div className="aboutPage__Section__container">
+                                <div className="aboutPage__container__image">
                                     <img src={image} alt="" />
                                 </div>
                             </div>
                         </div>
                         <div className="aboutPage__Section">
-                            <div className="Section__container">
-                                <div className="container__image">
+                            <div className="aboutPage__Section__container">
+                                <div className="aboutPage__container__image">
                                     <img src={image2} alt="" />
                                 </div>
                             </div>
-                            <div className="Section__container  container__underline">
-                                <div className="container__text">
-                                    <div className="container__textTitle">
+                            <div className="aboutPage__Section__container  aboutPage__container__underline">
+                                <div className="aboutPage__container__text">
+                                    <div className="aboutPage__container__textTitle">
                                         <h2>RZETELNOŚĆ</h2>
                                     </div>
                                     <p>W działalności naszej firmy przykładamy szczególną uwagę do fachowości, rzetelności, terminowości oraz solidności.
@@ -61,24 +61,23 @@ class AboutPage extends React.Component {
 
                         </div>
                         <div className="aboutPage__Section">
-                            <div className="Section__container container__underline">
-                                <div className="container__text">
-                                    <div className="container__textTitle">
+                            <div className="aboutPage__Section__container aboutPage__container__underline">
+                                <div className="aboutPage__container__text">
+                                    <div className="aboutPage__container__textTitle">
                                         <h2>NISKIE CENY</h2>
                                     </div>
                                     <p>Wieloletnia współpraca z najważniejszymi producentami na rynku, pozzwala nam nie tylko oferować materiały po korzystnych cenach,
                                     ale także wdrażać wspólnie nowe, innowacyjne technologie.</p>
                                 </div>
                             </div>
-                            <div className="Section__container">
-                                <div className="container__image">
+                            <div className="aboutPage__Section__container">
+                                <div className="aboutPage__container__image">
                                     <img src={image} alt="" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <Footer />
             </div>
         )
     }

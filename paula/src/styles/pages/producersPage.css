@@ -58,10 +58,10 @@
 }
 
 .producersPage__Section {
-    width: 20%;
+    height: 15vh;
     padding: 0 1vh 5vh 1vh;
 }
 
 .producersPage__Section img {
-    width: 100%;
+    height: 100%;
 }

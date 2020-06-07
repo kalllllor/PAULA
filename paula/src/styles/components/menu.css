@@ -32,8 +32,14 @@ a {
   width: 100%;
 }
 
+
+
 .Menu__links .link {
-  color: #E5E5E5;
+  margin-left: 3.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.Menu__links .link__chemist {
   margin-left: 3.5rem;
   transition: all 0.5s ease-in-out;
 }
@@ -45,47 +51,82 @@ a {
   font-weight: 400;
 }
 
-/* mouse over link */
 .link:hover {
   text-decoration: none;
   color: #FCC700;
 }
 
-.link__active {
+.link__chemist {
+  border: 0.8rem black solid;
+  box-shadow: 0.8vh 0.8vh 0vh -0.5vh #3abeb7;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.link__chemist:hover {
   text-decoration: none;
-  color: #FCC700;
-  -webkit-box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
-  -moz-box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
+  color: #3abeb7;
+}
+
+@keyframes animation__up {
+  from {
+    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
+  }
+
+  to {
+    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
+  }
+}
+
+@keyframes animation__down {
+  from {
+    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
+  }
+
+  to {
+    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
+  }
+}
+
+@keyframes animation__up__chemist {
+  from {
+    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #3abeb7;
+  }
+
+  to {
+    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #3abeb7;
+  }
+}
+
+@keyframes animation__down__chemist {
+  from {
+    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #3abeb7;
+  }
+
+  to {
+    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #3abeb7;
+  }
+}
+
+.animation__up {
+  animation: animation__up 0.5s;
   box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
+  color: #FCC700;
 }
 
-@keyframes hide {
-  from {
-    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700
-  }
-
-  to {
-    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700
-  }
-}
-
-@keyframes show {
-  from {
-    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700
-  }
-
-  to {
-    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700
-  }
-}
-
-.link__hide {
-  animation: hide 0.5s;
+.animation__down {
+  animation: animation__down 0.5s;
   box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
 }
 
-.link__show {
-  animation: show 0.5s;
-  box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
-  color: #FCC700;
+.animation__up__chemist {
+  animation: animation__up__chemist 0.5s;
+  box-shadow: -0.8vh -0.8vh 0vh -0.5vh #3abeb7;
+  color: #3abeb7;
 }
+
+.animation__down__chemist {
+  animation: animation__down__chemist 0.5s;
+  box-shadow: 0.8vh 0.8vh 0vh -0.5vh #3abeb7;
+}
+

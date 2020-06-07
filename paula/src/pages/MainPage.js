@@ -40,7 +40,6 @@ class MainPage extends React.Component {
                         return (<AboutColumn data={item} />)
                     })}
                 </div>
-                <Footer />
             </div>
         )
     }

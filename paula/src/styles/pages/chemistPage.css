@@ -1,0 +1,96 @@
+.chemistPage {
+    padding-bottom: 10vh;
+}
+
+
+.chemistPage__title {
+    text-align: center;
+    transform-style: preserve-3d;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+}
+
+.chemistPage__title h1 {
+    font-size: 6vw;
+    margin: 0;
+    margin-bottom: 4vh;
+}
+
+.chemistPage__title h1::before {
+    position: absolute;
+    content: "";
+    transform: translateZ(-1px);
+    background-color: #3abeb7;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.chemistPage__Section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.chemistPage__Section a{
+    color: #3abeb7;
+}
+
+
+.chemistPage__Section__container {
+    position: relative;
+    width: 40%;
+}
+
+.chemistPage__container__underline {
+    border-bottom: 0.5vh solid black;
+}
+
+.chemistPage__container__text {
+    text-align: center;
+}
+
+.chemistPage__container__text h2 {
+    font-size: 5vh;
+    margin: 0;
+}
+
+.chemistPage__container__textTitle {
+    display: inline-block;
+    background-color: #3abeb7;
+    padding: 0.5vh;
+    z-index: -1;
+    -webkit-box-shadow: 10px 10px 0px -3px rgba(0, 0, 0);
+    -moz-box-shadow: 10px 10px 0px -3px rgba(0, 0, 0);
+    box-shadow: 10px 10px 0px -3px rgba(0, 0, 0);
+}
+
+.chemistPage__container__text p {
+    text-align: justify;
+    font-size: 2.5vh;
+    padding: 2vh 0 3vh 0;
+    margin-bottom: 0;
+}
+
+.chemistPage__container__image {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-box-shadow: 10px 10px 0px -3px rgba(0, 0, 0);
+    -moz-box-shadow: 10px 10px 0px -3px rgba(0, 0, 0);
+    box-shadow: 10px 10px 0px -3px rgba(0, 0, 0);
+}
+
+.chemistPage__container__image img {
+    width: 100%;
+    height: 100%;
+}

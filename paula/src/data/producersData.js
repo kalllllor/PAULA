@@ -11,5 +11,12 @@ export const producersData = [
     { favicon: "kreisel.gif", },
     { favicon: "atlas.png", },
     { favicon: "ytong.png"},
-    { favicon: "roben.png"}
+    { favicon: "roben.png"},
+]
+
+export const producersData2 = [
+    { favicon: "kabe.png"},
+    { favicon: "foveotech.gif"},
+    { favicon: "lakma.png"},
+    { favicon: "kreisel.gif"}
 ]

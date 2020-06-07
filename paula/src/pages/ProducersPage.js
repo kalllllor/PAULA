@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Footer from "../components/Footer"
 import Menu from "../components/Menu"
 import { producersData } from "../data/producersData"
+import { producersData2 } from "../data/producersData"
 import "../styles/pages/producersPage.css"
 
 class ContactPage extends React.Component {
@@ -37,8 +38,19 @@ class ContactPage extends React.Component {
                             )
                         })}
                     </div>
+                    <div className="producersPage__description">
+                        <h2>Posiadamy również mieszalniki tynków i farb firm:</h2>
+                    </div>
+                    <div className="producersPage__content">
+                        {producersData2.map(item => {
+                            return (
+                                <div className="producersPage__Section">
+                                    <img src={require(`../img/producers/${item.favicon}`)} alt="" />
+                                </div>
+                            )
+                        })}
+                    </div>
                 </div>
-                <Footer />
             </div>
         )
     }

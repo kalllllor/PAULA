@@ -43,7 +43,7 @@ class ContactPage extends React.Component {
                                     <div className="content__contact">
                                         <img src={adressSign} alt="" />
                                         <h3>ul. Proszowska 23 </h3>
-                                        <h3>32-200 Miechów</h3>
+                                        <h3>32-200 Słomniki</h3>
                                     </div>
                                     <div className="content__contact">
                                         <img src={phoneSign} alt="" />
@@ -60,7 +60,7 @@ class ContactPage extends React.Component {
                                 <div className="contact__mapSign">
                                     <img src={mapsSign} alt="" />
                                 </div>
-                                <iframe className="contact__googleMap" title="oddzialMiechow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.1995532974543!2d20.084276602770252!3d50.24011881618411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165294cab2fbf9%3A0x92062f2cf9df58b1!2sProszowska%2023%2C%2032-090%20S%C5%82omniki!5e0!3m2!1spl!2spl!4v1590180122445!5m2!1spl!2spl" />
+                                <iframe className="contact__googleMap" title="oddzialSlomniki" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.7896139065024!2d20.08388305161039!3d50.23983521029808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165294cab2fbf9%3A0x2adcec16e6812c57!2sF.H.U.%20%22PAULA%22%20Pawe%C5%82%20Zieli%C5%84ski-Wojciech%20Podyma%20s%20c!5e0!3m2!1spl!2spl!4v1591528360106!5m2!1spl!2spl" />
                             </div>
                         </div>
                         <div className="contactPage__Section">
@@ -96,7 +96,7 @@ class ContactPage extends React.Component {
                                 <div className="contact__mapSign">
                                     <img src={mapsSign} alt="" />
                                 </div>
-                                <iframe className="contact__googleMap" title="oddzialSlomniki" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.268326255891!2d20.008755822243096!3d50.35688891743078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717abd2d68f6cb7%3A0x532dfc1aa9c8ecf!2sHenryka%20Sienkiewicza%2053%2C%2032-200%20Miech%C3%B3w!5e0!3m2!1spl!2spl!4v1590180766079!5m2!1spl!2spl" />
+                                <iframe className="contact__googleMap" title="oddzialMiechow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.5367980332494!2d20.008533451613044!3d50.35654430190654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717abd2d833cde9%3A0x5a78f744149fd93c!2sF.H.U.%20%22Paula%22%20Pawe%C5%82%20Zieli%C5%84ski%20-%20Wojciech%20Podyma!5e0!3m2!1spl!2spl!4v1591528492798!5m2!1spl!2spl" />
                             </div>
                         </div>
                         <div className="contactPage__Section">
@@ -131,7 +131,7 @@ class ContactPage extends React.Component {
                                 <div className="contact__mapSign">
                                     <img src={mapsSign} alt="" />
                                 </div>
-                                <iframe className="contact__googleMap" title="oddzialSlomniki" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.268326255891!2d20.008755822243096!3d50.35688891743078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717abd2d68f6cb7%3A0x532dfc1aa9c8ecf!2sHenryka%20Sienkiewicza%2053%2C%2032-200%20Miech%C3%B3w!5e0!3m2!1spl!2spl!4v1590180766079!5m2!1spl!2spl" />
+                                <iframe className="contact__googleMap" title="oddzialMiechow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.7896139065024!2d20.08388305161039!3d50.23983521029808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165294cab2fbf9%3A0x2adcec16e6812c57!2sF.H.U.%20%22PAULA%22%20Pawe%C5%82%20Zieli%C5%84ski-Wojciech%20Podyma%20s%20c!5e0!3m2!1spl!2spl!4v1591528360106!5m2!1spl!2spl" />
                             </div>
                         </div>
                         <div className="contactPage__Section">
@@ -166,12 +166,11 @@ class ContactPage extends React.Component {
                                 <div className="contact__mapSign">
                                     <img src={mapsSign} alt="" />
                                 </div>
-                                <iframe className="contact__googleMap" title="oddzialSlomniki" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.268326255891!2d20.008755822243096!3d50.35688891743078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717abd2d68f6cb7%3A0x532dfc1aa9c8ecf!2sHenryka%20Sienkiewicza%2053%2C%2032-200%20Miech%C3%B3w!5e0!3m2!1spl!2spl!4v1590180766079!5m2!1spl!2spl" />
+                                <iframe className="contact__googleMap" title="oddzialSlomniki" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.7871193724714!2d20.081506451610394!3d50.239881810294676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471652eb6eb9acf7%3A0x462ee9667a6524f8!2sDrogerie%20Polskie%20S%C5%82omniki!5e0!3m2!1spl!2spl!4v1591528617294!5m2!1spl!2spl" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <Footer />
             </div>
         )
     }
