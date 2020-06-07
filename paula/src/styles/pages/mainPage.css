@@ -2,14 +2,6 @@
     background-color: #E5E5E5;
 }
 
-.mainPage__shops {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-}
-
 .mainPage__aboutTitle {
     font-size: 4vh;
     text-align: center;

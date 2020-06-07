@@ -58,14 +58,14 @@ a {
 
 .link__chemist {
   border: 0.8rem black solid;
-  box-shadow: 0.8vh 0.8vh 0vh -0.5vh #3abeb7;
+  box-shadow: 0.8vh 0.8vh 0vh -0.5vh #fda525;
   font-size: 1.3rem;
   font-weight: 400;
 }
 
 .link__chemist:hover {
   text-decoration: none;
-  color: #3abeb7;
+  color: #fda525;
 }
 
 @keyframes animation__up {
@@ -90,21 +90,21 @@ a {
 
 @keyframes animation__up__chemist {
   from {
-    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #3abeb7;
+    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #fda525;
   }
 
   to {
-    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #3abeb7;
+    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #fda525;
   }
 }
 
 @keyframes animation__down__chemist {
   from {
-    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #3abeb7;
+    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #fda525;
   }
 
   to {
-    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #3abeb7;
+    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #fda525;
   }
 }
 
@@ -121,12 +121,12 @@ a {
 
 .animation__up__chemist {
   animation: animation__up__chemist 0.5s;
-  box-shadow: -0.8vh -0.8vh 0vh -0.5vh #3abeb7;
-  color: #3abeb7;
+  box-shadow: -0.8vh -0.8vh 0vh -0.5vh #fda525;
+  color: #fda525;
 }
 
 .animation__down__chemist {
   animation: animation__down__chemist 0.5s;
-  box-shadow: 0.8vh 0.8vh 0vh -0.5vh #3abeb7;
+  box-shadow: 0.8vh 0.8vh 0vh -0.5vh #fda525;
 }
 

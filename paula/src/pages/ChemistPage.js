@@ -4,6 +4,9 @@ import Menu from "../components/Menu"
 import "../styles/pages/chemistPage.css"
 import image from "../img/slider_example1.jpg"
 import image2 from "../img/slider_example2.png"
+import drogeriePolskieLogo from "../img/dp.png"
+import googlePlay from "../img/bg-download-google.jpg"
+import appStore from "../img/bg-download-apple.jpg"
 
 class AboutPage extends React.Component {
     constructor() {
@@ -32,7 +35,11 @@ class AboutPage extends React.Component {
                                     <div className="chemistPage__container__textTitle">
                                         <h2>DROGERIE POLSKIE</h2>
                                     </div>
-                                    <p>W skład firmy PAULA wchodzi również sklep kosmetyczny <a href="https://drogeriepolskie.pl" target="_blank">DROGERIE POLSKIE</a> powstały w 1998 roku. DP to najszybciej rozwijająca się sieć drogeryjna w Polsce. W naszym sklepie posiadamy bogaty asortyment kosmetyków, perfum, chemii i biżuterii w najlepszych cenach. Oferujemy profesjonalną obsługę klientów i doradztwo, które sprawiają, że zakupy w naszej drogerii są trafione, opłacalne i wartościowe. Nasza Drogeria gwarantuje dostęp do wyjątkowych personalizowanych ofert, usług i profitów w postaci super cen.</p>
+                                    <p>W skład firmy PAULA wchodzi również sklep kosmetyczny DROGERIE POLSKIE powstały w 1998 roku. DP to najszybciej rozwijająca się sieć drogeryjna w Polsce. W naszym sklepie posiadamy bogaty asortyment kosmetyków, perfum, chemii i biżuterii w najlepszych cenach. Oferujemy profesjonalną obsługę klientów i doradztwo, które sprawiają, że zakupy w naszej drogerii są trafione, opłacalne i wartościowe. Nasza Drogeria gwarantuje dostęp do wyjątkowych personalizowanych ofert, usług i profitów w postaci super cen.</p>
+                                </div>
+                                <div className="chemistPage__container__web">
+                                    <a href="https://drogeriepolskie.pl" target="_blank"><img src={drogeriePolskieLogo} />
+                                    <h2>STRONA INTERNETOWA DROGERII POLSKICH</h2></a>
                                 </div>
                             </div>
                             <div className="chemistPage__Section__container">
@@ -53,14 +60,25 @@ class AboutPage extends React.Component {
                                         <h2>APLIKACJA</h2>
                                     </div>
                                     <p>
-                                        Pobierz aplikację Drogerie Polskie ze sklepu <a href="https://play.google.com/store/apps/details?id=pl.loyaltypoint.drogeriepolskie&hl=pl" target="_blank">Google Play</a> lub <a href="https://apps.apple.com/pl/app/klub-dp/id1440464943?l=pl" target="_blank">App Store</a>
-                                        , zarejestruj się i korzystaj z przyznanych profitów wartościwych dla Ciebie. Zapraszamy do korzystania z super cen znajdujących się w naszych gazetkach promocyjnych.
+                                        Pobierz aplikację Drogerie Polskie ze sklepu Google Play lub App Store, zarejestruj się i korzystaj z przyznanych profitów wartościwych dla Ciebie. Zapraszamy do korzystania z super cen znajdujących się w naszych gazetkach promocyjnych.
                                     </p>
+    
+                                </div>
+                                <div className="chemistPage__container__app">
+                                    <a href="https://play.google.com/store/apps/details?id=pl.loyaltypoint.drogeriepolskie&hl=pl" target="_blank">
+                                        <div className="chemistPage__container__app__element">
+                                            <img src={googlePlay} />
+                                            <div class="chemistPage__overlay" />
+                                        </div>
+                                    </a>
+                                    <a href="https://apps.apple.com/pl/app/klub-dp/id1440464943?l=pl" target="_blank">
+                                        <div className="chemistPage__container__app__element">
+                                            <img src={appStore} />
+                                            <div class="chemistPage__overlay" />
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
-                        </div>
-                        <div className="chemistPage__Section">
-
                         </div>
                     </div>
                 </div>
