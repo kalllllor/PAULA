@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PAULA/static/css/main.17c649a4.chunk.css",
-    "main.js": "/PAULA/static/js/main.96cd50f5.chunk.js",
-    "main.js.map": "/PAULA/static/js/main.96cd50f5.chunk.js.map",
+    "main.css": "/PAULA/static/css/main.ff311ca5.chunk.css",
+    "main.js": "/PAULA/static/js/main.0760774b.chunk.js",
+    "main.js.map": "/PAULA/static/js/main.0760774b.chunk.js.map",
     "runtime-main.js": "/PAULA/static/js/runtime-main.371a8e45.js",
     "runtime-main.js.map": "/PAULA/static/js/runtime-main.371a8e45.js.map",
     "static/js/2.48a68576.chunk.js": "/PAULA/static/js/2.48a68576.chunk.js",
     "static/js/2.48a68576.chunk.js.map": "/PAULA/static/js/2.48a68576.chunk.js.map",
     "index.html": "/PAULA/index.html",
-    "precache-manifest.22d85f0b90572e2a6a575197f21b98ff.js": "/PAULA/precache-manifest.22d85f0b90572e2a6a575197f21b98ff.js",
+    "precache-manifest.3f1f3307c1814cc9ea707e653f6d5978.js": "/PAULA/precache-manifest.3f1f3307c1814cc9ea707e653f6d5978.js",
     "service-worker.js": "/PAULA/service-worker.js",
-    "static/css/main.17c649a4.chunk.css.map": "/PAULA/static/css/main.17c649a4.chunk.css.map",
+    "static/css/main.ff311ca5.chunk.css.map": "/PAULA/static/css/main.ff311ca5.chunk.css.map",
     "static/js/2.48a68576.chunk.js.LICENSE.txt": "/PAULA/static/js/2.48a68576.chunk.js.LICENSE.txt",
     "static/media/atlas.png": "/PAULA/static/media/atlas.4d3907cb.png",
     "static/media/chyzbet.png": "/PAULA/static/media/chyzbet.0382ca7a.png",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.371a8e45.js",
     "static/js/2.48a68576.chunk.js",
-    "static/css/main.17c649a4.chunk.css",
-    "static/js/main.96cd50f5.chunk.js"
+    "static/css/main.ff311ca5.chunk.css",
+    "static/js/main.0760774b.chunk.js"
   ]
 }
