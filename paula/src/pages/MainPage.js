@@ -1,23 +1,33 @@
 import React, { Component } from "react"
-import Footer from "../components/Footer"
 import Menu from "../components/Menu"
 import Slider from "../components/Slider"
 import AboutColumn from "../components/AboutColumn"
-import ShopColumn from "../components/ShopColumn"
 import { aboutData } from "../data/aboutData"
-import { shopsData } from "../data/shopsData"
 import "../styles/pages/mainPage.css"
 
 class MainPage extends React.Component {
     constructor() {
         super();
         this.state = {
+            width: window.innerWidth,
         }
     }
 
     componentDidMount() {
         window.scrollTo(0, 0)
     }
+
+    componentWillMount() {
+        window.addEventListener('resize', this.handleWindowSizeChange);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.handleWindowSizeChange);
+    }
+
+    handleWindowSizeChange = () => {
+        this.setState({ width: window.innerWidth });
+    };
 
     render() {
 

@@ -26,12 +26,21 @@ a {
   width: 100%;
 }
 
+.Menu__toggler {
+  cursor: pointer;
+  display: none;
+}
+
 .Menu__padding {
   height: 6rem;
   padding: 1rem 2.8rem;
   width: 100%;
 }
 
+.Menu__logo img {
+  z-index: 10;
+
+}
 
 
 .Menu__links .link {
@@ -130,3 +139,110 @@ a {
   box-shadow: 0.8vh 0.8vh 0vh -0.5vh #fda525;
 }
 
+@media (max-width: 1290px) {
+  .Menu {
+    padding: 0 0;
+    z-index: 10;
+  }
+
+  .Menu__mobile {
+    align-items: center;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 4;
+  }
+
+  .Menu__toggler {
+    display: block;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+  }
+
+  .Menu__logo {
+    padding-left: 30px;
+  }
+
+  .Menu__button {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    position: relative;
+    transition: all .5s ease-in-out;
+    width: 4rem;
+  }
+
+  .Button__burger {
+    width: 3rem;
+    height: 0.3rem;
+    border-radius: 4px;
+    background-color: white;
+    transition: all .5s ease-in-out;
+  }
+
+  .Button__burger::before,
+  .Button__burger::after {
+    content: "";
+    position: absolute;
+    width: 3rem;
+    height: 0.3rem;
+    border-radius: 4px;
+    background-color: white;
+    transition: all .5s ease-in-out;
+  }
+
+  .Button__burger::before {
+    transform: translateY(-1rem);
+  }
+
+  .Button__burger::after {
+    transform: translateY(1rem);
+  }
+
+  .button__active .Button__burger {
+    background: transparent;
+  }
+
+  .button__active .Button__burger::before {
+    transform: rotate(45deg);
+    background-color: #FCC700;
+  }
+
+  .button__active .Button__burger::after {
+    transform: rotate(-45deg);
+    background-color: #FCC700;
+  }
+
+  .Menu__links {
+    align-items: center;
+    background: rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding: 1rem 0;
+    position: absolute;
+    top: calc(-400px);
+    transition: 0.7s;
+    width: 100%;
+    z-index: -1;
+    border-bottom: 1rem solid #FCC700;
+  }
+
+  .Menu__links .link,
+  .Menu__links .link__chemist {
+    padding: 1rem 0;
+    border: 0;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .Menu__links--visible {
+    top: calc(90px);
+  }
+}

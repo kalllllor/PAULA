@@ -5,15 +5,37 @@ import MainPage from '../pages/MainPage'
 import { Link } from "react-router-dom"
 
 class Menu extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            isVisible: false
+        }
+        this.toggleMenu = this.toggleMenu.bind(this);
+    }
+
+    toggleMenu = () => {
+        this.setState({
+            isVisible: !this.state.isVisible
+        })
+    }
 
     render() {
+        const { isVisible } = this.state;
+        console.log(isVisible)
         return (
             <div>
                 <div className="Menu">
-                    <div className="Menu__logo">
-                        <Link to="/"><img src={logo} alt="logo" /></Link>
+                    <div className="Menu__mobile">
+                        <div className="Menu__logo">
+                            <Link to="/"><img src={logo} alt="logo" /></Link>
+                        </div>
+                        <div className="Menu__toggler">
+                            <div className={isVisible ? "Menu__button button__active" : "Menu__button"} onClick={this.toggleMenu}>
+                                <div className="Button__burger" />
+                            </div>
+                        </div>
                     </div>
-                    <div className="Menu__links">
+                    <div className={`Menu__links ${isVisible ? 'Menu__links--visible' : ''}`}>
                         <Link className={"link" + (this.props.active === "mainPage" ? " animation__up" : "") + (this.props.before === "mainPage" ? " animation__down" : "")}
                             to={{
                                 pathname: "/",
@@ -52,7 +74,7 @@ class Menu extends React.Component {
                         </Link>
                     </div>
                 </div>
-                <div className="Menu__padding"/>
+                <div className="Menu__padding" />
             </div>
         )
     }

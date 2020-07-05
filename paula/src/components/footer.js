@@ -23,10 +23,12 @@ class Footer extends React.Component {
                         <h2>GODZINY OTWARCIA</h2>
                         <h3>ODDZIAŁ SŁOMNIKI</h3>
                         <p>pn-pt 7-18</p>
-                        <p>pn-pt 7-14</p>
+                        <p>sobota 7-14</p>
+                        <p>niedziela nieczynne</p>
                         <h3>ODDZIAŁ MIECHÓW</h3>
                         <p>pn-pt 7-17</p>
-                        <p>pn-pt 7-14</p>
+                        <p>sobota 7-14</p>
+                        <p>niedziela nieczynne</p>
                     </div>
                     <div className="Footer__contener">
                         <iframe className="Footer__map" title="oddzialSlomniki" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.7896139065024!2d20.08388305161039!3d50.23983521029808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165294cab2fbf9%3A0x2adcec16e6812c57!2sF.H.U.%20%22PAULA%22%20Pawe%C5%82%20Zieli%C5%84ski-Wojciech%20Podyma%20s%20c!5e0!3m2!1spl!2spl!4v1591528360106!5m2!1spl!2spl" />
