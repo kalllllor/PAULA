@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ffdf12c726a93222336122ca2774bc55",
+    "revision": "0fe817b9a398dd3b92f35e729f9e8dc1",
     "url": "/PAULA/index.html"
   },
   {
-    "revision": "fb67173f7bdf1e5d539f",
-    "url": "/PAULA/static/css/main.40e9c7fd.chunk.css"
+    "revision": "9cc74501ddcc53a18c18",
+    "url": "/PAULA/static/css/main.82d25002.chunk.css"
   },
   {
     "revision": "cbbc9355e7b867c83a62",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PAULA/static/js/2.6db76965.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb67173f7bdf1e5d539f",
-    "url": "/PAULA/static/js/main.a8f527db.chunk.js"
+    "revision": "9cc74501ddcc53a18c18",
+    "url": "/PAULA/static/js/main.4777880e.chunk.js"
   },
   {
     "revision": "d0c64ca83f3bbf8ef9d4",
