@@ -1,27 +1,63 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "655e0fd9c12b33421b20b68a98be3ae4",
+    "revision": "cd2fe4c30330e0364b82bc01d6e0baef",
     "url": "/PAULA/index.html"
   },
   {
-    "revision": "be1acce698ad8018f871",
-    "url": "/PAULA/static/css/main.82d25002.chunk.css"
+    "revision": "87ff5ebc72ead0817994",
+    "url": "/PAULA/static/css/main.3e06659a.chunk.css"
   },
   {
-    "revision": "cbbc9355e7b867c83a62",
-    "url": "/PAULA/static/js/2.6db76965.chunk.js"
+    "revision": "79ef49d7af8982f20102",
+    "url": "/PAULA/static/js/2.f793539f.chunk.js"
   },
   {
     "revision": "54fd6816419f7824e2804745930c9117",
-    "url": "/PAULA/static/js/2.6db76965.chunk.js.LICENSE.txt"
+    "url": "/PAULA/static/js/2.f793539f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "be1acce698ad8018f871",
-    "url": "/PAULA/static/js/main.f35fd802.chunk.js"
+    "revision": "87ff5ebc72ead0817994",
+    "url": "/PAULA/static/js/main.65741205.chunk.js"
   },
   {
     "revision": "d0c64ca83f3bbf8ef9d4",
     "url": "/PAULA/static/js/runtime-main.371a8e45.js"
+  },
+  {
+    "revision": "46a52381b12808ffcda8ad680d9b443f",
+    "url": "/PAULA/static/media/KOSM1.46a52381.jpg"
+  },
+  {
+    "revision": "02ab827f20c4ef97deb973c57f9066cf",
+    "url": "/PAULA/static/media/KOSM2.02ab827f.jpg"
+  },
+  {
+    "revision": "1aff79e0364e6cbba541ece6661bd6a0",
+    "url": "/PAULA/static/media/KOSM3.1aff79e0.jpg"
+  },
+  {
+    "revision": "c602652b6d668d99c777c117c2ec75ac",
+    "url": "/PAULA/static/media/KOSM4.c602652b.jpg"
+  },
+  {
+    "revision": "7a247f8c2edd1c60244cdcade4b4820e",
+    "url": "/PAULA/static/media/KOSM5.7a247f8c.jpg"
+  },
+  {
+    "revision": "cee88d3492e63ba4922879ffc84707f4",
+    "url": "/PAULA/static/media/PAULA1.cee88d34.jpg"
+  },
+  {
+    "revision": "d585fe0ad3acbb1562c59704bc13e392",
+    "url": "/PAULA/static/media/PAULA1ABOUT.d585fe0a.jpg"
+  },
+  {
+    "revision": "ec319a97e1505092349f1239e1a0eb80",
+    "url": "/PAULA/static/media/PAULA2.ec319a97.jpg"
+  },
+  {
+    "revision": "548406d716b95f02dc31b92f9f8303fe",
+    "url": "/PAULA/static/media/PAULA3.548406d7.jpg"
   },
   {
     "revision": "4d3907cb15c4056fc31a1ee4d41e1684",
@@ -90,18 +126,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "83b53d8a83aa0610ca746e18fed59398",
     "url": "/PAULA/static/media/schiedel.83b53d8a.png"
-  },
-  {
-    "revision": "35584cfaa7813f111f4fadecc35fea92",
-    "url": "/PAULA/static/media/slider_example1.35584cfa.jpg"
-  },
-  {
-    "revision": "f046d97bdedb8d715df4cbe82c9ce98a",
-    "url": "/PAULA/static/media/slider_example2.f046d97b.png"
-  },
-  {
-    "revision": "6953b7c4453b6d5e5388c957aca869df",
-    "url": "/PAULA/static/media/slider_example3.6953b7c4.jpg"
   },
   {
     "revision": "928bff74179e17e1769d5f3a84c40aee",
