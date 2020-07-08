@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import "../styles/components/slider.css"
-import image from "../img/slider_example1.jpg"
-import image2 from "../img/slider_example2.png"
-import image3 from "../img/slider_example3.jpg"
+import image1 from "../img/photos/PAULA1.jpg"
+import image2 from "../img/photos/PAULA2.jpg"
+import image3 from "../img/photos/PAULA3.jpg"
 import arrowRight from "../img/next.png"
 import arrowLeft from "../img/back.png"
 class Slider extends React.Component {
@@ -17,26 +17,20 @@ class Slider extends React.Component {
 
             sliderData: [
                 {
-                    url: image,
-                    title: "X lat doświadczenia",
-                    description: "Sed fringilla ac sapien at pellentesque. Morbi sit amet turpis sapien. Sed feugiat, magna non dictum hendrerit, sapien dolor fringilla sem, convallis elementum nulla urna nec nibh."
+                    url: image1,
+                    title: "DOŚWIADCZENIE",
+                    description: "Hurtownie PAULA to przede wszystkim doradcy budowlani z wieloletnim, praktycznym doświadczeniem w branży zapewniający doradctwo i fachowe wyliczenie ilości materiałów budowlanych niezbędnych do budowy domu, od fundamentu aż po dach."
                 },
                 {
                     url: image2,
-                    title: "Najwyższej jakości produkty",
-                    description: "Sed felis ipsum, mattis vel egestas nec, vehicula ac risus. Cras vel justo sagittis, tincidunt est eu, ullamcorper sem."
+                    title: "RZETELNOŚĆ",
+                    description: "W działalności naszej firmy przykładamy szczególną uwagę do fachowości, rzetelności, terminowości oraz solidności."
                 },
                 {
                     url: image3,
-                    title: "Tylko zadowolony klient",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci lorem, efficitur nec metus et, congue posuere risus. Duis tristique facilisis purus eleifend rutrum."
+                    title: "NISKIE CENY",
+                    description: "Wieloletnia współpraca z najważniejszymi producentami na rynku, pozzwala nam nie tylko oferować materiały po korzystnych cenach, ale także wdrażać wspólnie nowe, innowacyjne technologie."
                 },
-                {
-                    url: image2,
-                    title: "Miła obsługa",
-                    description: "Mauris in laoreet felis, nec malesuada turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed mollis at odio ac rutrum."
-                },
-
             ],
             arrowNext: arrowRight,
             arrowPrev: arrowLeft

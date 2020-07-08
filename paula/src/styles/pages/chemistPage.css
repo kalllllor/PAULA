@@ -2,6 +2,12 @@
     padding-bottom: 10vh;
 }
 
+.chemistPage svg {
+    display: block;
+    position: absolute;
+    top: 7.5rem;
+    z-index: 0;
+}
 
 .chemistPage__title {
     text-align: center;
@@ -21,7 +27,7 @@
     position: absolute;
     content: "";
     transform: translateZ(-1px);
-    background-color: #fda525  ;
+    background-color: #fda525;
     left: 0%;
     width: 100%;
     height: 100%;
@@ -38,8 +44,8 @@
     flex-wrap: wrap;
 }
 
-.chemistPage__Section a{
-    color: #731d69  ;
+.chemistPage__Section a {
+    color: #731d69;
 }
 
 
@@ -61,7 +67,7 @@
     margin: 0;
 }
 
-.chemistPage__container__web{
+.chemistPage__container__web {
     position: relative;
     display: flex;
     font-size: 2vh;
@@ -69,12 +75,12 @@
     height: 12vh;
 }
 
-.chemistPage__container__web img{
+.chemistPage__container__web img {
     height: 100%;
 }
 
-.chemistPage__container__web h2{
-    width:75%;
+.chemistPage__container__web h2 {
+    width: 75%;
     position: absolute;
     right: 0%;
     top: 30%;
@@ -83,22 +89,22 @@
     text-align: center;
 }
 
-.chemistPage__container__app{
+.chemistPage__container__app {
     position: relative;
     display: flex;
 }
- 
+
 .chemistPage__container__app__element {
     position: relative;
     height: 3.5rem;
     width: 10rem;
-    margin-right:1rem;
-    margin-right:1rem;
+    margin-right: 1rem;
+    margin-right: 1rem;
     background-color: black;
     border-radius: 1rem;
 }
 
-.chemistPage__container__app__element img{
+.chemistPage__container__app__element img {
     position: absolute;
     margin: auto;
     top: 0;
@@ -119,13 +125,13 @@
     transition: .5s ease;
     border-radius: 1rem;
     background-color: grey;
-  }
+}
 
-  .chemistPage__container__app__element:hover .chemistPage__overlay {
+.chemistPage__container__app__element:hover .chemistPage__overlay {
     opacity: 0.5;
     cursor: pointer;
-  }
-  
+}
+
 
 .chemistPage__container__textTitle {
     display: inline-block;
@@ -146,7 +152,7 @@
 
 .chemistPage__container__image {
     position: absolute;
-    height: 70%;
+    height: 90%;
     width: 100%;
     top: 50%;
     -ms-transform: translateY(-50%);
@@ -159,4 +165,5 @@
 .chemistPage__container__image img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }

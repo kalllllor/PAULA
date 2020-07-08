@@ -1,5 +1,19 @@
 .mainPage {
     background-color: #E5E5E5;
+    position: relative;
+}
+
+.mainPage svg {
+    display: block;
+    position: absolute;
+    z-index: 0;
+}
+
+.mainPage svg:nth-child(1) {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
 }
 
 .mainPage__aboutTitle {
@@ -8,8 +22,11 @@
 }
 
 .mainPage__aboutTitle h2 {
+    position: relative;
+    display: block;
     margin: 0;
     margin-top: 4vh;
+    z-index: 2;
 }
 
 .mainPage__aboutFirst {
@@ -63,6 +80,11 @@
     text-align: justify;
     padding-bottom: 1vh;
     border-bottom: 2px solid black;
+}
+
+.mainPage__aboutDescription {
+    position: relative;
+    z-index: 2;
 }
 
 .mainPage__About {

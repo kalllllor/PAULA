@@ -20,16 +20,43 @@ html {
 
 .mobilePage__About {}
 
+.mainPage__About {
+    padding-bottom: 0;
+}
+
 .Mobile__title {
     margin: 0 auto;
     text-align: center;
     width: 90%;
+
 }
 
 .Mobile__title h1 {
     font-size: 2.8rem;
     margin: 2rem 0 2rem 0;
-    margin-bottom: 4vh;
+    background-color: #FCC700;
+}
+
+.About__title h1 {
+    margin-bottom: 0;
+}
+
+.map__title h1 {
+    background-color: #FCC700;
+}
+
+.map__contener {
+    text-align: center;
+}
+
+.Mobile__map {
+    border: 0;
+    height: 20rem;
+    width: 100%;
+}
+
+.Contact__title h1 {
+    background-color: black;
 }
 
 .mobilePage__Contact {

@@ -21,7 +21,7 @@ a {
   justify-content: space-between;
   padding: 1rem 2.8rem;
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   height: 6rem;
   width: 100%;
 }
@@ -39,9 +39,7 @@ a {
 
 .Menu__logo img {
   z-index: 10;
-
 }
-
 
 .Menu__links .link {
   margin-left: 3.5rem;

@@ -21,9 +21,9 @@ class ContactPage extends React.Component {
 
         return (
             <div className="contactPage">
-
                 <Menu active="contactPage" before={this.props.location.before} />
-                <div style={{ borderTop: "solid 3vh #FCC700" }}>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d8d8d8" fill-opacity="1" d="M0,320L24,277.3C48,235,96,149,144,128C192,107,240,149,288,144C336,139,384,85,432,80C480,75,528,117,576,122.7C624,128,672,96,720,122.7C768,149,816,235,864,229.3C912,224,960,128,1008,112C1056,96,1104,160,1152,176C1200,192,1248,160,1296,170.7C1344,181,1392,235,1416,261.3L1440,288L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
+                <div style={{ borderTop: "solid 1.5rem #FCC700" }}>
                     <div className="contactPage__title" >
                         <h1>KONTAKT</h1>
                     </div>

@@ -19,8 +19,9 @@ class AboutPage extends React.Component {
         return (
             <div>
                 <div className="RODOPage">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d8d8d8" fill-opacity="1" d="M0,288L24,266.7C48,245,96,203,144,208C192,213,240,267,288,293.3C336,320,384,320,432,288C480,256,528,192,576,144C624,96,672,64,720,85.3C768,107,816,181,864,197.3C912,213,960,171,1008,165.3C1056,160,1104,192,1152,208C1200,224,1248,224,1296,202.7C1344,181,1392,139,1416,117.3L1440,96L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
                     <Menu active="RODOPage" before={this.props.location.before} />
-                    <div style={{ borderTop: "solid 3vh #FCC700" }}>
+                    <div style={{ borderTop: "solid 1.5rem #FCC700" }}>
                         <div className="RODOPage__content">
                             <div className="RODOPage__title">
                                 <h1>RODO</h1>

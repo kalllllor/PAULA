@@ -3,8 +3,9 @@ import Footer from "../components/Footer"
 import Menu from "../components/Menu"
 import "../styles/pages/aboutPage.css"
 
-import image from "../img/slider_example1.jpg"
-import image2 from "../img/slider_example2.png"
+import image1 from "../img/photos/PAULA1ABOUT.jpg"
+import image2 from "../img/photos/PAULA2.jpg"
+import image3 from "../img/photos/PAULA3.jpg"
 
 class AboutPage extends React.Component {
     constructor() {
@@ -21,8 +22,9 @@ class AboutPage extends React.Component {
         return (
             <div>
                 <div className="aboutPage">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d8d8d8" fill-opacity="1" d="M0,256L24,229.3C48,203,96,149,144,154.7C192,160,240,224,288,213.3C336,203,384,117,432,117.3C480,117,528,203,576,229.3C624,256,672,224,720,192C768,160,816,128,864,122.7C912,117,960,139,1008,154.7C1056,171,1104,181,1152,160C1200,139,1248,85,1296,90.7C1344,96,1392,160,1416,192L1440,224L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
                     <Menu active="aboutPage" before={this.props.location.before} />
-                    <div style={{ borderTop: "solid 3vh #FCC700" }}>
+                    <div style={{ borderTop: "solid 1.5rem #FCC700" }}>
                         <div className="aboutPage__title" >
                             <h1>O NAS</h1>
                         </div>
@@ -38,7 +40,7 @@ class AboutPage extends React.Component {
                             </div>
                             <div className="aboutPage__Section__container">
                                 <div className="aboutPage__container__image">
-                                    <img src={image} alt="" />
+                                    <img src={image1} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -72,7 +74,7 @@ class AboutPage extends React.Component {
                             </div>
                             <div className="aboutPage__Section__container">
                                 <div className="aboutPage__container__image">
-                                    <img src={image} alt="" />
+                                    <img src={image3} alt="" />
                                 </div>
                             </div>
                         </div>
