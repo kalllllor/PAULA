@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PAULA/static/css/main.3e06659a.chunk.css",
-    "main.js": "/PAULA/static/js/main.65741205.chunk.js",
-    "main.js.map": "/PAULA/static/js/main.65741205.chunk.js.map",
+    "main.css": "/PAULA/static/css/main.2c0a174c.chunk.css",
+    "main.js": "/PAULA/static/js/main.80bcf334.chunk.js",
+    "main.js.map": "/PAULA/static/js/main.80bcf334.chunk.js.map",
     "runtime-main.js": "/PAULA/static/js/runtime-main.371a8e45.js",
     "runtime-main.js.map": "/PAULA/static/js/runtime-main.371a8e45.js.map",
     "static/js/2.f793539f.chunk.js": "/PAULA/static/js/2.f793539f.chunk.js",
     "static/js/2.f793539f.chunk.js.map": "/PAULA/static/js/2.f793539f.chunk.js.map",
     "index.html": "/PAULA/index.html",
-    "precache-manifest.f163a4c5947fff0a7662206e5204cc42.js": "/PAULA/precache-manifest.f163a4c5947fff0a7662206e5204cc42.js",
+    "precache-manifest.7ea35558a8bac04787b8da6027b2aab7.js": "/PAULA/precache-manifest.7ea35558a8bac04787b8da6027b2aab7.js",
     "service-worker.js": "/PAULA/service-worker.js",
-    "static/css/main.3e06659a.chunk.css.map": "/PAULA/static/css/main.3e06659a.chunk.css.map",
+    "static/css/main.2c0a174c.chunk.css.map": "/PAULA/static/css/main.2c0a174c.chunk.css.map",
     "static/js/2.f793539f.chunk.js.LICENSE.txt": "/PAULA/static/js/2.f793539f.chunk.js.LICENSE.txt",
     "static/media/KOSM1.jpg": "/PAULA/static/media/KOSM1.46a52381.jpg",
     "static/media/KOSM2.jpg": "/PAULA/static/media/KOSM2.02ab827f.jpg",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.371a8e45.js",
     "static/js/2.f793539f.chunk.js",
-    "static/css/main.3e06659a.chunk.css",
-    "static/js/main.65741205.chunk.js"
+    "static/css/main.2c0a174c.chunk.css",
+    "static/js/main.80bcf334.chunk.js"
   ]
 }
