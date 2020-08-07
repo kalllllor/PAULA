@@ -1,8 +1,8 @@
 .aboutColumn {
     width: 16rem;
+    height: 7rem;
     text-align: center;
-
-    margin: 2rem;
+    margin: 2rem auto 2rem auto;
     border-bottom: 0.2rem solid black;
 }
 

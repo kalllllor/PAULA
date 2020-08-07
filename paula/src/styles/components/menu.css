@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
@@ -9,7 +10,7 @@
 }
 
 a {
-  color: #e5e5e5;
+  color: #E5E5E5;
   text-decoration: none;
 }
 
@@ -52,14 +53,14 @@ a {
 
 .link {
   border: 0.8rem black solid;
-  box-shadow: 0.8vh 0.8vh 0vh -0.5vh #fcc700;
+  box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
   font-size: 1.3rem;
   font-weight: 400;
 }
 
 .link:hover {
   text-decoration: none;
-  color: #fcc700;
+  color: #FCC700;
 }
 
 .link__chemist {
@@ -76,21 +77,21 @@ a {
 
 @keyframes animation__up {
   from {
-    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #fcc700;
+    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
   }
 
   to {
-    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #fcc700;
+    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
   }
 }
 
 @keyframes animation__down {
   from {
-    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #fcc700;
+    box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
   }
 
   to {
-    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #fcc700;
+    box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
   }
 }
 
@@ -116,13 +117,13 @@ a {
 
 .animation__up {
   animation: animation__up 0.5s;
-  box-shadow: -0.8vh -0.8vh 0vh -0.5vh #fcc700;
-  color: #fcc700;
+  box-shadow: -0.8vh -0.8vh 0vh -0.5vh #FCC700;
+  color: #FCC700;
 }
 
 .animation__down {
   animation: animation__down 0.5s;
-  box-shadow: 0.8vh 0.8vh 0vh -0.5vh #fcc700;
+  box-shadow: 0.8vh 0.8vh 0vh -0.5vh #FCC700;
 }
 
 .animation__up__chemist {
@@ -171,7 +172,7 @@ a {
     height: 4rem;
     justify-content: center;
     position: relative;
-    transition: all 0.5s ease-in-out;
+    transition: all .5s ease-in-out;
     width: 4rem;
   }
 
@@ -180,7 +181,7 @@ a {
     height: 0.3rem;
     border-radius: 4px;
     background-color: white;
-    transition: all 0.5s ease-in-out;
+    transition: all .5s ease-in-out;
   }
 
   .Button__burger::before,
@@ -191,7 +192,7 @@ a {
     height: 0.3rem;
     border-radius: 4px;
     background-color: white;
-    transition: all 0.5s ease-in-out;
+    transition: all .5s ease-in-out;
   }
 
   .Button__burger::before {
@@ -208,12 +209,12 @@ a {
 
   .button__active .Button__burger::before {
     transform: rotate(45deg);
-    background-color: #fcc700;
+    background-color: #FCC700;
   }
 
   .button__active .Button__burger::after {
     transform: rotate(-45deg);
-    background-color: #fcc700;
+    background-color: #FCC700;
   }
 
   .Menu__links {
@@ -224,11 +225,11 @@ a {
     left: 0;
     padding: 1rem 0;
     position: absolute;
-    top: calc(-300px);
+    top: calc(-400px);
     transition: 0.7s;
     width: 100%;
     z-index: -1;
-    border-bottom: 1rem solid #fcc700;
+    border-bottom: 1rem solid #FCC700;
   }
 
   .Menu__links .link,
