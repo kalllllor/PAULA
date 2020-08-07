@@ -1,43 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9d8c3cca555e76dec78a53390e690ea",
+    "revision": "be245210f8f9e8e75c730bb34ee41afb",
     "url": "/PAULA/index.html"
   },
   {
-    "revision": "a7d0a459574313c2b899",
-    "url": "/PAULA/static/css/main.2c0a174c.chunk.css"
+    "revision": "f81c8982d87ae5c2778a",
+    "url": "/PAULA/static/css/main.8a848789.chunk.css"
   },
   {
-    "revision": "79ef49d7af8982f20102",
-    "url": "/PAULA/static/js/2.f793539f.chunk.js"
+    "revision": "fe2c162cafee47233f46",
+    "url": "/PAULA/static/js/2.47a30fc3.chunk.js"
   },
   {
-    "revision": "54fd6816419f7824e2804745930c9117",
-    "url": "/PAULA/static/js/2.f793539f.chunk.js.LICENSE.txt"
+    "revision": "c87550333da8df8ab4c80bd1d6e9defb",
+    "url": "/PAULA/static/js/2.47a30fc3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a7d0a459574313c2b899",
-    "url": "/PAULA/static/js/main.80bcf334.chunk.js"
+    "revision": "f81c8982d87ae5c2778a",
+    "url": "/PAULA/static/js/main.5ea96742.chunk.js"
   },
   {
     "revision": "d0c64ca83f3bbf8ef9d4",
     "url": "/PAULA/static/js/runtime-main.371a8e45.js"
   },
   {
-    "revision": "46a52381b12808ffcda8ad680d9b443f",
-    "url": "/PAULA/static/media/KOSM1.46a52381.jpg"
-  },
-  {
-    "revision": "02ab827f20c4ef97deb973c57f9066cf",
-    "url": "/PAULA/static/media/KOSM2.02ab827f.jpg"
-  },
-  {
     "revision": "1aff79e0364e6cbba541ece6661bd6a0",
     "url": "/PAULA/static/media/KOSM3.1aff79e0.jpg"
-  },
-  {
-    "revision": "c602652b6d668d99c777c117c2ec75ac",
-    "url": "/PAULA/static/media/KOSM4.c602652b.jpg"
   },
   {
     "revision": "7a247f8c2edd1c60244cdcade4b4820e",

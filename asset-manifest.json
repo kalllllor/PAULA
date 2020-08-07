@@ -1,21 +1,18 @@
 {
   "files": {
-    "main.css": "/PAULA/static/css/main.2c0a174c.chunk.css",
-    "main.js": "/PAULA/static/js/main.80bcf334.chunk.js",
-    "main.js.map": "/PAULA/static/js/main.80bcf334.chunk.js.map",
+    "main.css": "/PAULA/static/css/main.8a848789.chunk.css",
+    "main.js": "/PAULA/static/js/main.5ea96742.chunk.js",
+    "main.js.map": "/PAULA/static/js/main.5ea96742.chunk.js.map",
     "runtime-main.js": "/PAULA/static/js/runtime-main.371a8e45.js",
     "runtime-main.js.map": "/PAULA/static/js/runtime-main.371a8e45.js.map",
-    "static/js/2.f793539f.chunk.js": "/PAULA/static/js/2.f793539f.chunk.js",
-    "static/js/2.f793539f.chunk.js.map": "/PAULA/static/js/2.f793539f.chunk.js.map",
+    "static/js/2.47a30fc3.chunk.js": "/PAULA/static/js/2.47a30fc3.chunk.js",
+    "static/js/2.47a30fc3.chunk.js.map": "/PAULA/static/js/2.47a30fc3.chunk.js.map",
     "index.html": "/PAULA/index.html",
-    "precache-manifest.7ea35558a8bac04787b8da6027b2aab7.js": "/PAULA/precache-manifest.7ea35558a8bac04787b8da6027b2aab7.js",
+    "precache-manifest.112adb346937d33d5e1ac7834b216522.js": "/PAULA/precache-manifest.112adb346937d33d5e1ac7834b216522.js",
     "service-worker.js": "/PAULA/service-worker.js",
-    "static/css/main.2c0a174c.chunk.css.map": "/PAULA/static/css/main.2c0a174c.chunk.css.map",
-    "static/js/2.f793539f.chunk.js.LICENSE.txt": "/PAULA/static/js/2.f793539f.chunk.js.LICENSE.txt",
-    "static/media/KOSM1.jpg": "/PAULA/static/media/KOSM1.46a52381.jpg",
-    "static/media/KOSM2.jpg": "/PAULA/static/media/KOSM2.02ab827f.jpg",
+    "static/css/main.8a848789.chunk.css.map": "/PAULA/static/css/main.8a848789.chunk.css.map",
+    "static/js/2.47a30fc3.chunk.js.LICENSE.txt": "/PAULA/static/js/2.47a30fc3.chunk.js.LICENSE.txt",
     "static/media/KOSM3.jpg": "/PAULA/static/media/KOSM3.1aff79e0.jpg",
-    "static/media/KOSM4.jpg": "/PAULA/static/media/KOSM4.c602652b.jpg",
     "static/media/KOSM5.jpg": "/PAULA/static/media/KOSM5.7a247f8c.jpg",
     "static/media/PAULA1.jpg": "/PAULA/static/media/PAULA1.cee88d34.jpg",
     "static/media/PAULA1ABOUT.jpg": "/PAULA/static/media/PAULA1ABOUT.d585fe0a.jpg",
@@ -43,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.371a8e45.js",
-    "static/js/2.f793539f.chunk.js",
-    "static/css/main.2c0a174c.chunk.css",
-    "static/js/main.80bcf334.chunk.js"
+    "static/js/2.47a30fc3.chunk.js",
+    "static/css/main.8a848789.chunk.css",
+    "static/js/main.5ea96742.chunk.js"
   ]
 }
